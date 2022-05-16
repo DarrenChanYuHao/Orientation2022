@@ -1,0 +1,49 @@
+body{
+    height:1000px;
+    font-family: 'Montserrat', sans-serif;
+}
+ /*countdown section 1*/
+.countdown-section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 10px;
+}
+
+.countdown-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text{
+    margin:50px;
+    margin-top: 40px;
+}
+
+.footstep-logo{
+    margin-top: 70px;
+    transform: rotate(180deg);
+}
+
+.video-section{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height:70vh;
+}
+
+.story-section{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 80vh;
+}
+
+  
+.scroll-up.show{
+   right:10px;
+
+}
