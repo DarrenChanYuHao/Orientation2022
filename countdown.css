@@ -9,7 +9,6 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    margin-top: 10px;
 }
 
 .countdown-content{
@@ -46,4 +45,37 @@ body{
 .scroll-up.show{
    right:10px;
 
+}
+
+nav {
+    position: fixed;
+    background-color: #eeeeee;
+    padding: 20px;
+    height: 84px;
+    width: 100%;
+    min-width: 720px;
+    z-index: 1;
+}
+
+#sutd-logo {
+    padding: 5.07px;
+}
+
+#menu {
+    float: right;
+}
+
+#menu li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#menu li a {
+    color: #000000;
+}
+
+.blanks {
+    height: 84px;
+    width: 100%;
+    opacity: 0;
 }
