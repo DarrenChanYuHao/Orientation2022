@@ -20,14 +20,21 @@ function countdown(){
 
 setInterval(countdown,1000) //run for every second (1000 millisecond)
 
-//scroll-up function
+const scrolltop= document.getElementById("scrollup") 
 
-// document.querySelector(".scroll-up") == scroll
-// window.onscroll = function(){
-//     if (this.scrollY >= 100){
-//         scroll.classList.add("show");
+// window.addEventListener("scroll",scrollfunction);
+// function scrollfunction(){
+//     if (window.pageYOffset>10){ //scrolltop btn displayed
+//         scrolltop.countdown.display="block";
 //     }
-//     else{
-//         scroll.classList.remove("show");
+//     else{ //scrolltop btn displayed
+//         scrolltop.countdown.display="none";
 //     }
-// };
+// }
+scrolltop.addEventListener("click",function(){
+    window.scrollTo({
+        top:0,
+        left:0,
+        behavior:"smooth"
+    });
+});
