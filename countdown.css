@@ -34,7 +34,7 @@ body{
     display: flex;
     position: absolute; 
     transform: translate3d(0px, 0px, 0px);
-    margin-top: 30%;
+    margin-top: 35%;
 }
 
 .animate-box span{
