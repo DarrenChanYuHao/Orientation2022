@@ -1,0 +1,166 @@
+html, body{
+    height:1000px;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+ /*countdown section*/
+.countdown-section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.countdown-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text{
+    margin:50px;
+    margin-top: 40px;
+}
+
+/* .footstep-logo{
+    margin-top: 70px;
+    transform: rotate(180deg);
+} */
+
+.animate-box{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    position: absolute; 
+    transform: translate3d(0px, 0px, 0px);
+    margin-top: 35%;
+}
+
+.animate-box span{
+    display:block;
+    width: 20px; 
+    height: 20px;
+    border:1px solid #383838;
+    transform:rotate(45deg);
+    animation: animate 3s infinite;
+    
+}
+
+.animate-box span:nth-child(1){
+    animation-delay:.2s;
+}
+
+.animate-box span:nth-child(2){
+    animation-delay:.4s;
+}
+.animate-box span:nth-child(3){
+    animation-delay:.6s;
+}
+@keyframes animate {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity:0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.video-section{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height:70vh;
+}
+
+.story-section{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 80vh;
+}
+
+  
+.scroll-up.show{
+   right:10px;
+
+}
+
+nav {
+    position: fixed;
+    background-color: #eeeeee;
+    padding: 20px;
+    height: 84px;
+    width: 100%;
+    min-width: 720px;
+    z-index: 1;
+}
+
+#sutd-logo {
+    padding: 5.07px;
+}
+
+#menu {
+    float: right;
+}
+
+#menu li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#menu li a {
+    color: #000000;
+}
+
+.blanks {
+    height: 84px;
+    width: 100%;
+    opacity: 0;
+}
+
+/*scroll to top*/
+#scrollup{
+    display: block;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    width:50px;
+    height:45px;
+    background-color:#383838;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#scrollup:hover{
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+   outline: none;
+}
+
+.houses-section {
+    text-align: center;
+}
+
+#houses li {
+    display: inline-block;
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+    margin: 0 5px;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.sponsors-icons img {
+    height: 50px;
+}
+
+.contact-icons img{
+    height: 40px;
+}
