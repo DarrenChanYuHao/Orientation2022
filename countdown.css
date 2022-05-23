@@ -70,6 +70,10 @@ html, body{
     }
 }
 
+.reporting{
+    margin-bottom:35px;
+}
+
 .video-section{
     align-items: center;
     justify-content: center;
@@ -123,7 +127,6 @@ nav {
     opacity: 0;
 }
 
-/*scroll to top*/
 .scrollup{
     background-color: black;
     border: none;
@@ -131,7 +134,7 @@ nav {
     color: white;
     cursor: pointer;
     line-height: 48px;
-    width: 48px;
+    width: 55px;
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -169,6 +172,13 @@ nav {
     margin: 0 5px;
     align-content: center;
     vertical-align: middle;
+}
+
+.sponsors-section, .contact-section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .sponsors-icons img {
