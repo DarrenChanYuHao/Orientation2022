@@ -1,8 +1,8 @@
-
 <!DOCTYPE html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="countdown.css">
+    <link rel="stylesheet" type="text/css" href="./countdown.css">
+    <link rel="stylesheet" type="text/css" href="./popup.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -85,8 +85,11 @@
             <h2>Introducing the Houses</h2>
             <ul id="houses">
                 <li>
-                    <p>Rubellite</p>
-                    <img src="./RubP.png" id="rubellite" width="200px" alt="Rubellite (Triceratops)"></li>
+                    <button class="btn" id="rubBtn">
+                        <p>Rubellite</p>
+                        <img src="./RubP.png" id="rubellite" width="200px" alt="Rubellite (Triceratops)">
+                    </button>
+                </li>
                 <li>
                     <p>Jadeite</p>
                     <img src="./JadP.png" id="jadeite" width="200px" alt="Jadeite (Pterodactyl)"></li>
@@ -101,7 +104,7 @@
         <div class="blanks" id="details-section"></div>
         <section class="details-section">
             <div class="row">
-                <div class="col-6">
+                <div class="col-sm">
                     <h2 class="reporting">Reporting Details</h2>
                     <h4>Dates: 8-10 September 2022</h4>
                         <p>(placeholder)</p>
@@ -112,9 +115,10 @@
                     <h4>Packing List</h4>
                         <p>(placeholder)</p>
                 </div>
-                <div class="col-6">
+                <div class="col-sm">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7249803314576!2d103.96114931399768!3d1.3413700619781364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3cd899f260cb%3A0x99becabc6d025518!2sSingapore%20University%20of%20Technology%20%26%20Design%20(SUTD)!5e0!3m2!1sen!2ssg!4v1653292770304!5m2!1sen!2ssg" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
+            </div>
         </section>
         <div class="blanks" id="sponsors-section"></div>
         <section class="sponsors-section">
@@ -142,6 +146,18 @@
         </section>
         <div class="blanks" id="last-blank"></div>
     </div>
+
+    <!-- Popups -->
+    <div id="rubPopUp" class="modal">
+        <div class="modal-content pop-up">
+            <span class="closed">&leftarrow;<span id="back-to-main">Back to Main Page</span></span>
+            <p>Some text in the Modal..</p>
+        </div>
+    </div>
+
+
     <!-- countdown javascript -->
     <script src="countdown.js"></script>
+    <script src="popup.js"></script>
+    
 </body>
