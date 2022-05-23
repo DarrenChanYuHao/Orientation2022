@@ -100,7 +100,7 @@ nav {
     padding: 20px;
     height: 84px;
     width: 100%;
-    min-width: 720px;
+    min-width: 705px;
     z-index: 1;
 }
 
@@ -157,6 +157,11 @@ nav {
 
 .houses-section {
     text-align: center;
+}
+
+
+#houses {
+    padding-inline-start: 0;
 }
 
 #houses li {
