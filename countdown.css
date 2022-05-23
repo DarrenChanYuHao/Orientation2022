@@ -70,6 +70,10 @@ html, body{
     }
 }
 
+.reporting{
+    margin-bottom:35px;
+}
+
 .video-section{
     align-items: center;
     justify-content: center;
@@ -163,6 +167,13 @@ nav {
     margin: 0 5px;
     align-content: center;
     vertical-align: middle;
+}
+
+.sponsors-section, .contact-section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .sponsors-icons img {
