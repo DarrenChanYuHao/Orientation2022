@@ -157,6 +157,10 @@ nav {
     text-align: center;
 }
 
+#houses {
+    padding-inline-start: 0;
+}
+
 #houses li {
     display: inline-block;
     height: 200px;
