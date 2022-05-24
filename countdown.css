@@ -180,7 +180,7 @@ nav {
     vertical-align: middle;
 }
 
-.sponsors-section, .contact-section{
+.sponsors-section, .contact-section,.Trailer{
     justify-content: center;
     align-items: center;
     display: flex;
