@@ -194,3 +194,164 @@ nav {
 .contact-icons img{
     height: 40px;
 }
+
+/*small devices*/
+
+@media screen and (max-width:576px){
+    
+    p{
+       font-size:80%;
+    }
+    h1{
+        font-size:30%;
+    }
+    h4{
+        font-size:30%;
+    }
+
+    .houselogo{
+        width:50%;
+        height:50%;
+        padding-top:20px;
+    }
+
+    .title{
+        width:80%;
+        height:75%;
+    }
+    
+    .date{
+        font-size:95%;
+    }
+    /* .footstep-logo{
+        margin-top: 70px;
+        transform: rotate(180deg);
+    } */
+    
+    .animate-box{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        position: absolute; 
+        transform: translate3d(0px, 0px, 0px);
+      
+    }
+    
+    .animate-box span{
+        display:block;
+        width: 20px; 
+        height: 20px;
+        border:1px solid #383838;
+        transform:rotate(45deg);
+        animation: animate 3s infinite;
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+    
+    .text{
+       font-size:70%;
+    }
+
+    .houselogo{
+        width:40%;
+        height:40%;
+        padding-top:20px;
+    }
+
+    .title{
+        width:85%;
+        height:85%;
+    }
+    
+
+    /* .footstep-logo{
+        margin-top: 70px;
+        transform: rotate(180deg);
+    } */
+    
+    .animate-box{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        position: absolute; 
+        transform: translate3d(0px, 0px, 0px);
+        margin-top: 700px;
+    }
+    
+    .Trailer{
+        margin-top:50px;
+    }
+
+    .countdown-section{
+        height:58vh;
+    }
+    
+    .video-section{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height:50vh;
+    }
+
+    .story-section{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 60vh;
+    }
+}
+
+/*Medium devices*/
+@media  screen and (min-width:768px) and (max-width:1199.98px){
+    .text{
+        font-size:70%;
+     }
+     
+    .houselogo{
+        width:45%;
+        height:45%;
+        padding-top:20px;
+    }
+ 
+     /* .footstep-logo{
+         margin-top: 70px;
+         transform: rotate(180deg);
+     } */
+     
+     .animate-box{
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         display: flex;
+         position: absolute; 
+         transform: translate3d(0px, 0px, 0px);
+         padding-top: 300px;
+     }
+     
+     .Trailer{
+         margin-top:50px;
+     }
+ 
+     .countdown-section{
+         height:58vh;
+     }
+     
+     .video-section{
+         align-items: center;
+         justify-content: center;
+         display: flex;
+         height:35vh;
+     }
+ 
+     .story-section{
+         align-items: center;
+         justify-content: center;
+         display: flex;
+         height: 60vh;
+     }
+}
