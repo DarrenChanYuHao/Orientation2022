@@ -199,14 +199,17 @@ nav {
 
 @media screen and (max-width:576px){
     
-    p{
-       font-size:80%;
-    }
     h1{
-        font-size:30%;
+        font-size:25px!important;
+    }
+    h2{
+        font-size:22px!important;
+    }
+    h3{
+        font-size:20px!important;
     }
     h4{
-        font-size:30%;
+        font-size:10px!important;
     }
 
     .houselogo{
@@ -345,13 +348,11 @@ nav {
          align-items: center;
          justify-content: center;
          display: flex;
-         height:35vh;
      }
  
      .story-section{
          align-items: center;
          justify-content: center;
          display: flex;
-         height: 60vh;
      }
 }
