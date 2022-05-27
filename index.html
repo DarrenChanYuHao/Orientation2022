@@ -74,16 +74,9 @@
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
-                    <div class="card_video">
-                        <span class="responsive"></span>
-                        <span class="responsive"></span>
-                        <span class="responsive"></span>
-                        <span class="responsive"></span>
-                        <!-- <video playsinline="" muted="" loop="">
-                            <source src="video/egg_BG.mp4" type="video/mp4">
-                            <source src="video/egg_BG.webm" type="video/webm">
-                        </video> -->
-                        <img src="House Logos/aquamarine logo.png" class="responsive_story"/>
+                    <div class="card_video">               
+                            <!-- This inserts the 3D object inside the Jewel container -->
+                            <model-viewer id="Jewel" src="assets/Jewel_Model.glb" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/Jewel_Model.glb" shadow-intensity="1" shadow-softness="0.7"></model-viewer>
                     </div>
                 </div>
                 
@@ -170,6 +163,8 @@
     <!-- countdown javascript -->
     <script src="countdown.js"></script>
     <script src="popup.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
     <script> 
         AOS.init();
     </script>
