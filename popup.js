@@ -9,7 +9,9 @@ var hamburgMenu = document.getElementById("hamburg-menu");
 var rubBtn = document.getElementById("rubBtn");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("closed")[0];
+var menuClose = document.getElementById('menuClose');
+
+var rubClose = document.getElementById('rubClose');
 
 // When the user clicks on the button, open the modal
 hamburgMenu.onclick = function() {
