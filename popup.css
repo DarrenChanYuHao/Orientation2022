@@ -47,3 +47,30 @@
     border: 0;
     background-color: rgba(0,0,0,0);
 }
+
+.modal-content.pop-up.sideMenu {
+    height: 100%;
+    width: 40%;
+    border: 0;
+    border-radius: 0;
+    float: right;
+    transform: translate(-125%,-50%);
+}
+
+#menuClose {
+    text-align: right;
+}
+
+#menuClose img {
+    width: 30px;
+}
+
+#sideMenuOptions li {
+    display: block;
+    padding: 10px;
+}
+
+#sideMenuOptions li a{
+    color: #000000;
+    font-size: 20px;
+}
