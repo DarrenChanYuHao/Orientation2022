@@ -170,7 +170,7 @@ nav {
     padding: 20px;
     height: 84px;
     width: 100%;
-    min-width: 705px;
+    min-width: 200px;
     z-index: 1;
 }
 
@@ -422,4 +422,20 @@ nav {
          justify-content: center;
          display: flex;
      }
+}
+
+#hamburg-menu {
+    display: none;
+    width: 35px;
+    float: right;
+    border: 0;
+}
+
+#hamburg-menu:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    nav ul#menu {display: none;}
+    nav img#hamburg-menu {display: inline-block;}
 }
