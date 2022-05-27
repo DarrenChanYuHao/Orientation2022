@@ -95,9 +95,9 @@ html, body{
 }
 
 .story-section{
-    align-items: center;
+/*     align-items: center;
     justify-content: center;
-    display: flex;
+    display: flex; */
     height: 80vh;
 }
 
@@ -244,10 +244,10 @@ nav {
     border: none;
 }
 
-.houses-section {
+/* .houses-section {
     text-align: center;
     height: 80vh;
-}
+} */
 
 
 #houses {
