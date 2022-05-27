@@ -225,6 +225,25 @@ nav {
     transform: translateY(0);
 }
 
+#Jewel {
+    height: 600px;
+    width: 700px;
+    position: absolute;
+    top: calc(50% - 150px);
+}
+
+
+/* This styles the 3D object inserted in the Jewel container */
+
+#Jewel model-viewer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
 .houses-section {
     text-align: center;
 }
