@@ -37,4 +37,3 @@ window.onclick = function(event) {
     sideMenu.style.display = "none";
   }
 }
-}
