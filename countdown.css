@@ -324,8 +324,8 @@ nav {
         height:70%;
     }
     #Jewel {
-        height: 200px;
-        width: 300px;
+        height: 250px;
+        width: 350px;
         position: relative;
         top: calc(50% - 150px);
     }
@@ -347,8 +347,11 @@ nav {
     }
     .details-section, .houses-section {
         text-align: center;
-        height: 80vh;
+        height: 50vh;
     } 
+    .story-section{
+        text-align:center;
+    }
     #rubellite, #jadeite, #citrine, #aquamarine{
         width:90%;
     }
