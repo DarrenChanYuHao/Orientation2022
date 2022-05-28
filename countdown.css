@@ -355,6 +355,11 @@ nav {
     #rubellite, #jadeite, #citrine, #aquamarine{
         width:90%;
     }
+    .responsive-iframe{
+        position:relative;
+        overflow:hidden;
+        width:100%;
+    }
 }
 
 
