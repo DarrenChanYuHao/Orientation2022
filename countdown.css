@@ -91,18 +91,32 @@ html, body{
     align-items: center;
     justify-content: center;
     display: flex;
-    height:70vh;
+    height:80vh;
 }
 
 .story-section{
-    height: 50vh;
+    height: 80vh;
 }
 
 
 .houses-section {
     text-align: center;
-    height: 50vh;
+    height: 80vh;
 } 
+
+.sponsors-section, .contact-section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height:40vh;
+}
+.Trailer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
 
 .responsive_story{
     max-width: 70%;
@@ -259,13 +273,6 @@ nav {
     margin: 0 5px;
     align-content: center;
     vertical-align: middle;
-}
-
-.sponsors-section, .contact-section, .Trailer{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
 }
 
 .sponsors-icons img {
