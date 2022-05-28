@@ -5,9 +5,14 @@ html, body{
 }
 
 .responsive{
-    max-width: 100%;
+    max-width: 20%;
     height:auto;
     /*padding:20px;*/
+}
+
+.responsive-title{
+    width:60%;
+    height:60%;
 }
 
  /*countdown section*/
@@ -295,18 +300,7 @@ nav {
     h4{
         font-size:10px!important;
     }
-
-    .houselogo{
-        width:50%;
-        height:50%;
-        padding-top:20px;
-    }
-
-    .title{
-        width:80%;
-        height:75%;
-    }
-    
+   
     .date{
         font-size:95%;
     }
@@ -333,15 +327,38 @@ nav {
         transform:rotate(45deg);
         animation: animate 3s infinite;
     }
-
+    .blanks{
+        height:40vh;
+    }
+    .responsive{
+        width:50%;
+        height:70%;
+    }
+    .responsive-title{
+        width:100%;
+        height:70%;
+    }
+    #Jewel {
+        height: 200px;
+        width: 300px;
+        position: relative;
+        top: calc(50% - 150px);
+    }
+    #Jewel model-viewer {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: none;
+    }
+    .maps{
+        width:350px;
+    }
 }
 
 
 @media screen and (max-width:768px) {
-    
-    .text{
-       font-size:70%;
-    }
 
     /* .footstep-logo{
         margin-top: 70px;
@@ -361,23 +378,32 @@ nav {
     .Trailer{
         margin-top:50px;
     }
-
+/* 
     .countdown-section{
         height:58vh;
-    }
+    } */
     
-    .video-section{
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        height:50vh;
+    .maps{
+        width:500px;
     }
-
+    .video-section{
+        
+        height:100vh;
+    }
     .story-section{
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        height: 60vh;
+        
+        height:1000vh;
+    }
+    .responsive{
+    
+        margin-top: 200px;
+    }
+    .responsive-title{
+        width:70%;
+        height:70%;
+    }
+    .text{
+       font-size:70%;
     }
 }
 
