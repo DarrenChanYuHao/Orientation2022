@@ -100,10 +100,7 @@ html, body{
 }
 
 .story-section{
-/*     align-items: center;
-    justify-content: center;
-    display: flex; */
-    height: 80vh;
+    height: 50vh;
 }
 
 .responsive_story{
@@ -251,7 +248,7 @@ nav {
 
 .houses-section {
     text-align: center;
-    height: 80vh;
+    height: 50vh;
 } 
 
 
@@ -304,10 +301,6 @@ nav {
     .date{
         font-size:95%;
     }
-    /* .footstep-logo{
-        margin-top: 70px;
-        transform: rotate(180deg);
-    } */
     
     .animate-box{
         align-items: center;
@@ -326,9 +319,6 @@ nav {
         border:1px solid #383838;
         transform:rotate(45deg);
         animation: animate 3s infinite;
-    }
-    .blanks{
-        height:40vh;
     }
     .responsive{
         width:50%;
@@ -396,14 +386,10 @@ nav {
     }
     .story-section{
         
-        height:1000vh;
-    }
-    .responsive{
-    
-        margin-top: 200px;
+        height:160vh;
     }
     .responsive-title{
-        width:70%;
+        width:100%;
         height:70%;
     }
     .text{
