@@ -41,6 +41,10 @@ html, body{
     text-align:center;
 }
 
+h1, h2, h4{
+    font-weight: 600!important;
+}
+
 .animate-box{
     align-items: center;
     justify-content: center;
@@ -397,8 +401,11 @@ nav {
         
         height:80vh;
     }
-    .story-section, .details-section{
+    .story-section{
         height:160vh;
+    }
+    .details-section{
+        height:250vh;
     }
     .houses-section {
         text-align: center;
