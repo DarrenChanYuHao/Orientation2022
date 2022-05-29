@@ -1,3 +1,4 @@
+@import url('http://fonts.cdnfonts.com/css/bluu-next');
 html, body{
     height:1000px;
     font-family: 'Montserrat', sans-serif !important;
@@ -361,6 +362,9 @@ nav {
         text-align: center;
         height: 50vh;
     } 
+    .countdown-section{
+        padding-top: 70px;
+    }
     .story-section{
         text-align:center;
     }
