@@ -1,13 +1,12 @@
 html, body{
     height:1000px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     scroll-behavior: smooth;
 }
 
 .responsive{
-    max-width: 20%;
+    max-width: 30%;
     height:auto;
-    /*padding:20px;*/
 }
 
 .responsive-title{
@@ -39,6 +38,7 @@ html, body{
 .text{
     margin:40px;
     margin-top: 40px;
+    text-align:center;
 }
 
 .animate-box{
@@ -323,7 +323,7 @@ nav {
         animation: animate 3s infinite;
     }
     .responsive{
-        width:50%;
+        width:100%;
         height:70%;
     }
     .responsive-title{
@@ -395,15 +395,15 @@ nav {
     }
     .video-section{
         
-        height:100vh;
+        height:80vh;
     }
-    .story-section{
+    .story-section, .details-section{
         height:160vh;
     }
     .houses-section {
         text-align: center;
         height: 180vh;
-    } 
+    }
     .responsive-title{
         width:100%;
         height:70%;
@@ -418,12 +418,6 @@ nav {
     .text{
         font-size:70%;
      }
-     
- 
-     /* .footstep-logo{
-         margin-top: 70px;
-         transform: rotate(180deg);
-     } */
      
      .animate-box{
          align-items: center;
