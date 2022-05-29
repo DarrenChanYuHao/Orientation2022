@@ -76,3 +76,14 @@
     font-size: 15px;
     float: right;
 }
+
+@media screen and (max-width:576px){
+    .modal-content.pop-up {
+        font-size: 15px;
+        width: 60%;
+        height: 90%;
+    }
+    .closed #back-to-main {
+        font-size: 15px!important;
+    }
+}
