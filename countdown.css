@@ -145,8 +145,7 @@ h1, h2, h4{
 }
 
 .dino{
-    height: 200px; /* insert here your desired height*/
-   object-fit:cover;
+   padding-top:40px;
 }
   
 .scroll-up.show{
