@@ -1,3 +1,4 @@
+// countdown function
 const orientation_date='08 Sept 2022 00:00:00';
 
 const countdown= setInterval(function(){
@@ -10,16 +11,25 @@ const countdown= setInterval(function(){
     const hours=Math.trunc((datediff/(60*60)%24))
     const minutes=Math.trunc((datediff/60)%60)
     const seconds=Math.trunc(datediff % 60)
+    const day = (days < 10) ? "0"+days : days;
+    const hour = (hours < 10) ? "0"+hours : hours;
+    const minute = (minutes < 10) ? "0"+minutes : minutes;
+    const second = (seconds < 10) ? "0"+seconds: seconds; 
     console.log(days)
     if (seconds < 0) {
-        clearInterval(countdown);
+        clearInterval(countdown)
+        document.querySelector(".days").innerHTML = "00"
+        document.querySelector(".hours").innerHTML = "00"
+        document.querySelector(".minutes").innerHTML = "00"
+        document.querySelector(".seconds").innerHTML = "00"
         return;
-      }
-    document.querySelector('.days').innerHTML= days
-    document.querySelector('.hours').innerHTML= hours
-    document.querySelector('.minutes').innerHTML= minutes
-    document.querySelector('.seconds').innerHTML= seconds
+    }
+    document.querySelector('.days').innerHTML= day
+    document.querySelector('.hours').innerHTML= hour
+    document.querySelector('.minutes').innerHTML= minute
+    document.querySelector('.seconds').innerHTML= second
 },1000) //run for every second (1000 millisecond)
+
 
 //scroll-up function
 var scrolltop = document.querySelector(".scrollup");
@@ -41,4 +51,3 @@ scrolltop.addEventListener("click",function(){
         behavior:"smooth"
     });
 });
-
