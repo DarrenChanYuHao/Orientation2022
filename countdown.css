@@ -104,6 +104,10 @@ h1, h2, h4{
     text-align:justify;
 }
 
+.pop_desc{
+    padding:50px;
+    text-align:justify;
+}
 
 .houses-section {
     text-align: center;
@@ -127,6 +131,7 @@ h1, h2, h4{
 .responsive_story{
     max-width: 70%;
     height:auto;
+    padding:50px;
 }
 
 .card_video span {
