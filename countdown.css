@@ -432,6 +432,7 @@ footer {
 @media  screen and (min-width:768px) and (max-width:1199.98px){
     .text{
         font-size:70%;
+        text-align: justify;
      }
      
      .animate-box{
