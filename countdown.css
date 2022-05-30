@@ -348,7 +348,7 @@ footer {
         padding-top: 70px;
     }
     .story-section{
-        text-align:center;
+        text-align:justify;
     }
     #rubellite, #jadeite, #citrine, #aquamarine{
         width:90%;
@@ -399,6 +399,7 @@ footer {
     }
     .story-section{
         height:160vh;
+        text-align:justify;
     }
     .details-section{
         height:200vh;
