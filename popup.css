@@ -18,7 +18,7 @@
     padding: 20px;
     border: 1px solid #888;
     width: 60%;
-    height: 60%;
+    height: auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -79,9 +79,9 @@
 
 @media screen and (max-width:576px){
     .modal-content.pop-up {
-        font-size: 15px;
-        width: 60%;
-        height: 90%;
+        font-size: 13px;
+        width: 90%;
+        height: auto;
     }
     .closed #back-to-main {
         font-size: 15px!important;
