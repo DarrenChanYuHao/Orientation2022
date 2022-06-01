@@ -18,7 +18,7 @@
     padding: 20px;
     border: 1px solid #888;
     width: 60%;
-    height: 60%;
+    height: auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -46,4 +46,44 @@
 .btn {
     border: 0;
     background-color: rgba(0,0,0,0);
+}
+
+.modal-content.pop-up.sideMenu {
+    height: 100%;
+    width: 40%;
+    border: 0;
+    border-radius: 0;
+    float: right;
+    transform: translate(-125%,-50%);
+}
+
+#menuClose {
+    text-align: right;
+}
+
+#menuClose img {
+    width: 30px;
+}
+
+#sideMenuOptions li {
+    display: block;
+    padding: 30px;
+    
+}
+
+#sideMenuOptions li a{
+    color: #000000;
+    font-size: 15px;
+    float: right;
+}
+
+@media screen and (max-width:576px){
+    .modal-content.pop-up {
+        font-size: 13px;
+        width: 90%;
+        height: auto;
+    }
+    .closed #back-to-main {
+        font-size: 15px!important;
+    }
 }

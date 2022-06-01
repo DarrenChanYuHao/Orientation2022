@@ -1,8 +1,19 @@
+@import url('https://fonts.cdnfonts.com/css/bluu-next');
 html, body{
     height:1000px;
-    font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
+
+.responsive{
+    max-width: 30%;
+    height:auto;
+}
+
+.responsive-title{
+    width:55%;
+    height:55%;
+}
+
  /*countdown section*/
 .countdown-section{
     justify-content: center;
@@ -27,12 +38,13 @@ html, body{
 .text{
     margin:40px;
     margin-top: 40px;
+    text-align:center;
 }
 
-/* .footstep-logo{
-    margin-top: 70px;
-    transform: rotate(180deg);
-} */
+h1, h2, h4{
+    font-weight: 600!important;
+    font-family:Bluu Next,serif!important;
+}
 
 .animate-box{
     align-items: center;
@@ -84,16 +96,48 @@ html, body{
     align-items: center;
     justify-content: center;
     display: flex;
-    height:70vh;
+    height:80vh;
 }
 
 .story-section{
-    align-items: center;
-    justify-content: center;
-    display: flex;
     height: 80vh;
+    text-align:justify;
 }
 
+.pop_desc{
+    padding:20px;
+    text-align:justify;
+}
+
+.houses-section {
+    text-align: center;
+    height: 80vh;
+} 
+
+.sponsors-section, .contact-section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height:25vh;
+}
+.Trailer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.responsive_story{
+    max-width: 70%;
+    height:auto;
+    margin:auto;
+    display: block;
+}
+
+.dino{
+   padding-top:40px;
+}
   
 .scroll-up.show{
    right:10px;
@@ -106,7 +150,7 @@ nav {
     padding: 20px;
     height: 84px;
     width: 100%;
-    min-width: 705px;
+    min-width: 200px;
     z-index: 1;
 }
 
@@ -161,10 +205,39 @@ nav {
     transform: translateY(0);
 }
 
-.houses-section {
-    text-align: center;
+#Jewel {
+    height: 600px;
+    width: 700px;
+    position: absolute;
+    top: calc(50% - 150px);
 }
 
+.card_video span {
+    position: absolute;
+    width: var(--size);
+    height: var(--size);
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(165, 250, 0, 1));
+    filter: drop-shadow(0px 0px 10px rgba(165, 250, 0, 1));
+}
+.card_video {
+    --size: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+/* This styles the 3D object inserted in the Jewel container */
+
+#Jewel model-viewer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+}
 
 #houses {
     padding-inline-start: 0;
@@ -180,13 +253,6 @@ nav {
     vertical-align: middle;
 }
 
-.sponsors-section, .contact-section, .Trailer{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
 .sponsors-icons img {
     height: 50px;
 }
@@ -194,6 +260,22 @@ nav {
 .contact-icons img{
     height: 40px;
 }
+
+/*footer reference from ori 2020 footer*/
+#foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 15vh;
+    padding-bottom: 20px;
+}
+footer {
+    display: block;
+}
+#foot-logo{
+    width: 150px;
+}
+
 
 /*small devices*/
 
@@ -209,27 +291,12 @@ nav {
         font-size:20px!important;
     }
     h4{
-        font-size:10px!important;
+        font-size:15px!important;
     }
-
-    .houselogo{
-        width:50%;
-        height:50%;
-        padding-top:20px;
-    }
-
-    .title{
-        width:80%;
-        height:75%;
-    }
-    
+   
     .date{
         font-size:95%;
     }
-    /* .footstep-logo{
-        margin-top: 70px;
-        transform: rotate(180deg);
-    } */
     
     .animate-box{
         align-items: center;
@@ -238,7 +305,7 @@ nav {
         display: flex;
         position: absolute; 
         transform: translate3d(0px, 0px, 0px);
-      
+        margin-top: 450px;
     }
     
     .animate-box span{
@@ -249,32 +316,67 @@ nav {
         transform:rotate(45deg);
         animation: animate 3s infinite;
     }
-
+    .responsive{
+        width:100%;
+        height:70%;
+    }
+    .responsive-title{
+        width:100%;
+        height:70%;
+    }
+    #Jewel {
+        height: 250px;
+        width: 350px;
+        position: relative;
+        top: calc(50% - 150px);
+    }
+    #Jewel model-viewer {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: none;
+    }
+    .maps{
+        width:90%;
+        height:200px;
+    }
+    .text{
+        margin:20px;
+        margin-top: 40px;
+    }
+    .details-section, .houses-section {
+        text-align: center;
+        height: 50vh;
+    } 
+    .countdown-section{
+        padding-top: 70px;
+    }
+    .story-section{
+        text-align:justify;
+    }
+    #rubellite, #jadeite, #citrine, #aquamarine{
+        width:90%;
+    }
+    .responsive-iframe{
+        position:relative;
+        overflow:hidden;
+        width:100%;
+    }
+    /*footer*/
+    #footer-top{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #footer-bottom{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 
-
+/*Medium Devices*/
 @media screen and (max-width:768px) {
-    
-    .text{
-       font-size:70%;
-    }
-
-    .houselogo{
-        width:50%;
-        height:50%;
-        padding-top:20px;
-    }
-
-    .title{
-        width:85%;
-        height:85%;
-    }
-    
-
-    /* .footstep-logo{
-        margin-top: 70px;
-        transform: rotate(180deg);
-    } */
     
     .animate-box{
         align-items: center;
@@ -283,48 +385,64 @@ nav {
         display: flex;
         position: absolute; 
         transform: translate3d(0px, 0px, 0px);
-        margin-top: 700px;
+        margin-top: 450px;
     }
     
     .Trailer{
         margin-top:50px;
     }
-
+/* 
     .countdown-section{
         height:58vh;
-    }
+    } */
     
-    .video-section{
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        height:50vh;
+    .maps{
+        width:500px;
     }
-
+    .video-section{
+        
+        height:80vh;
+    }
     .story-section{
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        height: 60vh;
+        height:160vh;
+        text-align:justify;
+    }
+    .details-section{
+        height:200vh;
+    }
+    .houses-section {
+        text-align: center;
+        height: 180vh;
+    }
+    .responsive-title{
+        width:100%;
+        height:70%;
+    }
+    .responsive_story{
+        margin-top: 30px;
+    }
+    .text{
+       font-size:70%;
+    }
+    #foot-logo{
+        width: calc(32px + 12vw);
+    }
+    #footer-bottom{
+        flex-direction: column;
+        align-items: start;
+    }
+    #footer-top{
+        padding: 10px 100px;
+        font-size: 16px;
     }
 }
 
-/*Medium devices*/
+/*large devices*/
 @media  screen and (min-width:768px) and (max-width:1199.98px){
     .text{
         font-size:70%;
+        text-align: justify;
      }
-     
-    .houselogo{
-        width:60%;
-        height:60%;
-        padding-top:20px;
-    }
- 
-     /* .footstep-logo{
-         margin-top: 70px;
-         transform: rotate(180deg);
-     } */
      
      .animate-box{
          align-items: center;
@@ -355,4 +473,27 @@ nav {
          justify-content: center;
          display: flex;
      }
+    .responsive_story{
+        margin-top: 40px;
+    }
+    .pop_desc{
+         font-size:14px;
+         padding:25px;
+    }
+}
+
+#hamburg-menu {
+    display: none;
+    width: 35px;
+    float: right;
+    border: 0;
+}
+
+#hamburg-menu:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    nav ul#menu {display: none;}
+    nav img#hamburg-menu {display: inline-block;}
 }
