@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientation 2022 | Multiverse Mystery</title>
+    <link rel="stylesheet" type="text/css" href="./countdown.css">
+    <link rel="stylesheet" type="text/css" href="./popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--font awesome 4 icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <nav>
+        <a href="https://www.sutd.edu.sg" target="_blank">
+            <img id="sutd-logo" src="./sutd_logo.svg" width="100px">
+        </a>
+        <ul id="menu">
+            <li><a href="#video-section">Introduction</a></li>
+            <li><a href="#story-section">Story</a></li>
+            <li><a href="#houses-section">Houses</a></li>
+            <li><a href="#details-section">Details</a></li>
+            <li><a href="#sponsors-section">Sponsors</a></li>
+            <li><a href="#contact-section">Contact Us</a></li>
+        </ul>
+        <img src="./icons8-menu-rounded-100.png" id="hamburg-menu">
+    </nav>
+    <div class="container">
+        <div class="blanks" id="countdown-section"></div>
+        <section data-aos="zoom-in" data-aos-duration="2000" class="countdown-section">
+            <img class="responsive" src="House Logos/onyx multiverse logo 2.png" alr="house logo" width="200px"/>
+            <img class="responsive-title" src="multiverse_title.png" alt="logo"  width="600px"/>
+            <h2>8 - 10 September 2022</h2>
+            <!-- <div class="scroll-up">Up</div> -->
+            <div class="countdown-content">
+                <div class="text">
+                    <h1 class="days"></h1>
+                    <h4>Days</h4>
+                </div>
+                <div class="text">
+                    <h1 class="hours"></h1>
+                    <h4>Hours</h4>
+                </div>
+                <div class="text">
+                    <h1 class="minutes"></h1>
+                    <h4>Minutes</h4>
+                </div>
+                <div class="text">
+                    <h1 class="seconds"></h1>
+                    <h4>Seconds</h4>
+                </div>
+            </div>
+            <!--<img class="footstep-logo" src="footsteps.png" height="50" width="50"/> -->
+            <div class="animate-box">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            </div>
+        </section>
+        <div class="blanks" id="video-section"></div>
+        <h2 class="Trailer">Trailer</h2>
+        <section data-aos="fade-down" data-aos-duration="2000" class="video-section">
+            <iframe class="responsive-iframe" height="400" width="850" src="https://www.youtube.com/embed/vNEHVnX5wGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <div class="blanks" id="story-section"></div>
+        <section data-aos="fade-right" data-aos-duration="2000" class="story-section">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-12 col-md-5">
+                    <h2>The Mystery of the Missing Jewels</h2>
+                    <br><p>There are 4 unique multiverses that coexist but never interact. Being Dinosaurians, the now more-evolved dinosaur 
+                    humans, their dinosaur features are greatly dependent from their individual universe’s jewel. Without the jewel, 
+                    they lose their identity as Dinosaurians, losing all their dinosaur features rapidly from the moment the jewel is gone. When the unexpected happens, the greatest mystery of the Jurassic period occurs: the 4 universes get merged into one – the current SUTD campus. Suspicions and distrust arise between the 4 representatives of their universes (Rubellite, Aquamarine, Citrine, Jadeite) as they have reason to believe that one of them is the kidnapper who just wants their species to be the only one that retains its dinosaur features. How will they find their missing jewels and restore the 4 universes? This is: Multiverse Mystery.
+                    </p>
+                </div>
+                <div class="col-12 col-md-5">
+                    <div class="card_video">               
+                            <!-- This inserts the 3D object inside the Jewel container -->
+                            <model-viewer id="Jewel" src="assets/Jewel_Model.glb" alt="Jewel" auto-rotate camera-controls ar ios-src="assets/Jewel_Model.glb" shadow-intensity="1" shadow-softness="0.7"></model-viewer>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </section>
+        
+        <button id="scrollup" class="scrollup">
+            <i class="fa fa-arrow-up" style="font-size:30px; color:white"></i>
+        </button>
+        
+        <div class="blanks" id="houses-section"></div>
+      
+        <div class="blanks" id="houses-section"></div>
+        <section data-aos="zoom-in-down" data-aos-duration="2000" class="houses-section">
+            <img id='onyx' src="./Onyx.png" width="40px">
+            <h2>Introducing the Houses</h2>
+            <ul id="houses">
+                <li>
+                    <button class="btn" id="rubBtn">
+                        <img src="./DinoHeadRubOnly.png" id="rubellite" width="200px" alt="Rubellite (Triceratops)">
+                    </button>
+                </li>
+                <li>
+                    <button class="btn" id="jadBtn">
+                        <img class="dino" src="./DinoHeadJadeOnly.png" id="jadeite" width="200px" alt="Jadeite (Pterodactyl)"></li>
+                    </button>
+                <li>
+                    <button class="btn" id="citBtn">
+                        <img class="dino" src="./DinoHeadCitrineOnly.png" id="citrine" width="200px" alt="Citrine (Stegosaurus)"></li>
+                    </button>
+                <li>
+                    <button class="btn" id="aquaBtn">
+                        <img src="./DinoHeadAquaOnly.png" id="aquamarine" width="200px" alt="Aquamarine (Spinosaurus)"></li>
+                    </button>
+            </ul>
+        </section>
+        <div class="blanks" id="details-section"></div>
+        <section data-aos="zoom-in" data-aos-duration="3000" class="details-section">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-12 col-md-5">
+                    <h2 class="reporting">Reporting Details</h2>
+                    <h4>Dates: 8-10 September 2022</h4>
+                        <p>(placeholder)</p>
+                    <h4>Reporting Location: Fifth-Row Alley</h4>
+                        <p>(placeholder)</p>
+                    <h4>How to get to SUTD</h4>
+                        <p>(placeholder)</p>
+                    <h4>Packing List</h4>
+                        <p>(placeholder)</p>
+                </div>
+                <div class="col-12 col-md-5">
+                    <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7249803314576!2d103.96114931399768!3d1.3413700619781364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3cd899f260cb%3A0x99becabc6d025518!2sSingapore%20University%20of%20Technology%20%26%20Design%20(SUTD)!5e0!3m2!1sen!2ssg!4v1653292770304!5m2!1sen!2ssg" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </section>
+        <div class="blanks" id="sponsors-section"></div>
+        <section data-aos="fade-down" data-aos-duration="2000" class="sponsors-section">
+            <h2>Our Sponsors</h2>
+            <hr>
+            <!--Icons here-->
+            <div class="sponsors-icons">
+                <img src="./IconP.png">
+                <img src="./IconP.png">
+                <img src="./IconP.png">
+                <img src="./IconP.png">
+            </div>
+        </section>
+        <div class="blanks" id="contact-section"></div>
+        <section data-aos="fade-down" data-aos-duration="2000" class="contact-section">
+            <img src="multiverse_title.png"  width="330" alt="logo"/>
+            <p>Brought to you by:</p>
+            <!--More icons here-->
+            <div class="contact-icons">
+                <img src="./IconP.png">
+                <img src="./IconP.png">
+                <img src="./IconP.png">
+                <img src="./IconP.png">
+            </div>
+        </section>
+        <div id="foot">
+            <footer>
+                <div class="row">
+                    <div class="col-md-9">
+                        <a href="https://www.sutd.edu.sg" target="_blank">
+                            <img id="sutd-logo" src="./sutd_logo.svg" width="120px">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <p><b>Email: <a href="mailto:orientation@sutd.edu.sg" style="color: var(--color-accent);">orientation@sutd.edu.sg</a></p></b>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-9">
+                        <p> Copyright © 2022 Singapore University of Technology and Design. All rights reserved. </p>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://www.sutd.edu.sg/Terms-and-Conditions" target="_blank" rel="noopener noreferrer">Terms &amp; Conditions</a></li>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Popups -->
+    <div id="side-Menu" class="modal">
+        <div class="modal-content pop-up sideMenu">
+            <span class="closed" id="menuClose"><img src="./icons8-back-100.png"></span>
+            <ul id="sideMenuOptions">
+                <li><a href="#video-section">Introduction</a></li>
+                <li><a href="#story-section">Story</a></li>
+                <li><a href="#houses-section">Houses</a></li>
+                <li><a href="#details-section">Details</a></li>
+                <li><a href="#sponsors-section">Sponsors</a></li>
+                <li><a href="#contact-section">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="rubPopUp" class="modal">
+        <div class="modal-content pop-up">
+            <span class="closed" id="rubClose">&leftarrow;<span id="back-to-main">Back to Main Page</span></span>
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <p class="pop_desc">Being pragmatic is something that comes naturally to this horned hero. Not to toot his horn, but for years he has been the ideal leader ensuring his realm is always prosperous through his intelligent decisions. His dinosaurians are full of praises for this sensible leader.  But when problems arise, would he be forced to draw his horns? If he unmasks the truth, what would be the fate of the universe?</p>
+                </div>
+                <div class="col-12 col-md-5">
+                    <div class="card_video">
+                        <img src="House Logos/rubellite logo.png" alt="rubellite" class="responsive_story"/>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="jadPopUp" class="modal">
+        <div class="modal-content pop-up">
+            <div class="closed" id="jadClose">&#215;</div>
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <p class="pop_desc">This light-hearted pacifist ensures there is peace in his realm by always looking out for his beloved dinosaurians. Through his excellent leadership abilities, till date he has conciliated every issue that has arised. Keeping the realm peaceful and ensuring his dinosaurians spirit is always soaring high, this leader is loved by all. But when something is amiss and his dinosaurians are in grave trouble what would he do? Would being the peacemaker be enough?</p>
+                </div>
+                <div class="col-12 col-md-5">
+                   
+                        <img src="House Logos/jadeite logo.png" alt="rubellite" class="responsive_story center-block"/>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="citPopUp" class="modal">
+        <div class="modal-content pop-up">
+            <span class="closed" id="citClose">&leftarrow;<span id="back-to-main">Back to Main Page</span></span>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h2 style="padding-left: 20px;">Jadeite</h2>
+                    <p class="pop_desc">This yellow petaled dinosaur has a heart of gold. By providing a listening ear, he is able to vanquish any problem that arises touching each and every dinosaurains heart. All of his dinosaurians feel welcomed and heard in his presence. His inviting nature ensures that his realm truly feels like home to his dinosaurians. But when calamity strikes, and his universe is at stake what would he do?</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    
+                        <img src="House Logos/citrine logo.png" alt="citrine" class="responsive_story"/>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="aquaPopUp" class="modal">
+        <div class="modal-content pop-up">
+            <span class="closed" id="aquaClose">&leftarrow;<span id="back-to-main">Back to Main Page</span></span>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <p class="pop_desc">Fiercely loyal and responsible, Aquamarine has led his realm peacefully throughout these years. With his iconic spine, every dinosaurian knows he has got their back. Through his jests, he always ensures his dinosaurians are always full of joy.  But when chaos ensues,who can he trust to have his back? Will he always be the reliable one in the face of danger, or would he crumble?</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card_video">
+                        <img src="House Logos/aquamarine logo.png" alt="aquamarine" class="responsive_story"/>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <!-- countdown javascript -->
+    <script src="countdown.js"></script>
+    <script src="popup.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <script> 
+        AOS.init();
+    </script>
+</body>
