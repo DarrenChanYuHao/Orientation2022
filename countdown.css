@@ -266,7 +266,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding:10px 100px
+    padding:10px 100px;
     background-color:#eeeeee;
 }
 footer {
