@@ -230,7 +230,7 @@ nav {
 
 /* This styles the 3D object inserted in the Jewel container */
 
-#Jewel model-viewer {
+model-viewer#Jewel {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -330,7 +330,7 @@ footer {
         position: relative;
         top: calc(50% - 150px);
     }
-    #Jewel model-viewer {
+    model-viewer#Jewel {
         height: 100%;
         width: 100%;
         position: absolute;
