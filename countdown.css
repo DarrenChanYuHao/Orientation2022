@@ -266,7 +266,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding:10px 100px;
+    padding: 20px;
     background-color:#eeeeee;
 }
 footer {
@@ -276,6 +276,9 @@ footer {
     width: 150px;
 }
 
+#TnC {
+    color: #808080;
+}
 
 /*small devices*/
 
