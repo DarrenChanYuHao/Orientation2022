@@ -57,29 +57,11 @@ aquaClose.onclick = function() {
 window.onclick = function(event) {
   if (event.target == rubPopUp) {
     rubPopUp.style.display = "none";
-  } else if (event.target == sideMenu) {
-    sideMenu.style.display = "none";
-  }
-}
-
-window.onclick = function(event) {
-  if (event.target == jadPopUp) {
+  } else if (event.target == jadPopUp) {
     jadPopUp.style.display = "none";
-  } else if (event.target == sideMenu) {
-    sideMenu.style.display = "none";
-  }
-}
-
-window.onclick = function(event) {
-  if (event.target == citPopUp) {
+  } else if (event.target == citPopUp) {
     citPopUp.style.display = "none";
-  } else if (event.target == sideMenu) {
-    sideMenu.style.display = "none";
-  }
-}
-
-window.onclick = function(event) {
-  if (event.target == aquaPopUp) {
+  } else if (event.target == aquaPopUp) {
     aquaPopUp.style.display = "none";
   } else if (event.target == sideMenu) {
     sideMenu.style.display = "none";
