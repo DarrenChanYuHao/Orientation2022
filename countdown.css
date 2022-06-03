@@ -192,7 +192,8 @@ nav {
     opacity: 0;
     transform: translateY(100px);
     /* and a transition */
-    transition: all .6s ease
+    transition: all .6s ease;
+    z-index: 1;
 }
 
 .scrollup:hover{
@@ -251,6 +252,10 @@ nav {
     margin: 0 5px;
     align-content: center;
     vertical-align: middle;
+}
+
+#gMap {
+    text-align: center;
 }
 
 .sponsors-icons img {
@@ -371,8 +376,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        padding-top:15vh;
-        padding-bottom:20px;
+        padding:20px;
     }
     
 }
