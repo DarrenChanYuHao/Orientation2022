@@ -1,5 +1,5 @@
 // countdown function
-const orientation_date='08 Sept 2022 00:00:00';
+const orientation_date='08 Sept 2022 08:00:00'; //countdown to 8 Sept 8am
 
 const countdown= setInterval(function(){
     const newdate=new Date(orientation_date).getTime()
