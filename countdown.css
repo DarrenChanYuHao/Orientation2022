@@ -111,7 +111,6 @@ h1, h2, h4{
 
 .houses-section {
     text-align: center;
-    height: 80vh;
 } 
 
 .sponsors-section, .contact-section{
@@ -246,10 +245,6 @@ nav {
 
 #houses li {
     display: inline-block;
-    height: 200px;
-    width: 250px;
-    padding: 10px;
-    margin: 0 5px;
     align-content: center;
     vertical-align: middle;
 }
@@ -354,10 +349,16 @@ footer {
         margin:20px;
         margin-top: 40px;
     }
-    .details-section, .houses-section {
+
+    .details-section {
         text-align: center;
         height: 50vh;
     } 
+
+    .houses-section {
+        text-align: center;
+    } 
+
     .countdown-section{
         padding-top: 70px;
     }
@@ -365,7 +366,7 @@ footer {
         text-align:justify;
     }
     #rubellite, #jadeite, #citrine, #aquamarine{
-        width:90%;
+        width:50%;
     }
     .responsive-iframe{
         position:relative;
@@ -418,7 +419,6 @@ footer {
     }
     .houses-section {
         text-align: center;
-        height: 180vh;
     }
     .responsive-title{
         width:100%;
