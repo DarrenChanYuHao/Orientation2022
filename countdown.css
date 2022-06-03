@@ -208,8 +208,8 @@ nav {
 }
 
 #Jewel {
-    height: 600px;
-    width: 700px;
+    height: 30vw;
+    width: 40vw;
     position: absolute;
     top: calc(50% - 150px);
 }
@@ -411,6 +411,9 @@ footer {
     .story-section{
         height:160vh;
         text-align:justify;
+    }
+    #story h2, #story p {
+        width: 90%;
     }
     .details-section{
         height:200vh;
