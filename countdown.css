@@ -249,6 +249,7 @@ nav {
     display: inline-block;
     align-content: center;
     vertical-align: middle;
+    height:200px;
 }
 
 #gMap {
