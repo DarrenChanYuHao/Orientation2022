@@ -111,6 +111,7 @@ h1, h2, h4{
 
 .houses-section {
     text-align: center;
+    height: 80vh;
 } 
 
 .sponsors-section, .contact-section{
@@ -137,6 +138,7 @@ h1, h2, h4{
 .dino{
    padding-top:40px;
 }
+
   
 .scroll-up.show{
    right:10px;
@@ -350,13 +352,9 @@ footer {
         margin-top: 40px;
     }
 
-    .details-section {
+    .details-section, .houses-section {
         text-align: center;
         height: 50vh;
-    } 
-
-    .houses-section {
-        text-align: center;
     } 
 
     .countdown-section{
@@ -419,6 +417,7 @@ footer {
     }
     .houses-section {
         text-align: center;
+        height: 180vh;
     }
     .responsive-title{
         width:100%;
