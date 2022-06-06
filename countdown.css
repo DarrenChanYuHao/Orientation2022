@@ -9,9 +9,9 @@ html, body{
     height:auto;
 }
 
-.responsive-title{
-    width:55%;
-    height:55%;
+.responsive-title { 
+    max-width: 100%; 
+    max-height: 100%;
 }
 
  /*countdown section*/
