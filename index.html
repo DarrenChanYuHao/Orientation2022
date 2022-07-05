@@ -11,9 +11,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--font awesome 4 icons-->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script>
+		
+        $(document).ready(function(){
+        
+            $("div.accordion-item1").click(function(){
+                $("div.accordion-answer1").slideToggle("slow");
+            });
+            $("div.accordion-item2").click(function(){
+                $("div.accordion-answer2").slideToggle("slow");
+            });
+            $("div.accordion-item3").click(function(){
+                $("div.accordion-answer3").slideToggle("slow");
+            });
+            $("div.accordion-item4").click(function(){
+                $("div.accordion-answer4").slideToggle("slow");
+            });
+        });
+        
+    </script>
+    
 </head>
 
 <body>
@@ -65,19 +90,19 @@
             </div>
         </section>
         <div class="blanks" id="video-section"></div>
-        <h2 class="Trailer">Multiverse Mystery | Trailer</h2>
+        <h2 class="Trailer">Trailer</h2>
         <section data-aos="fade-down" data-aos-duration="2000" class="video-section">
             <iframe class="responsive-iframe" height="400" width="850" src="https://www.youtube.com/embed/vNEHVnX5wGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
         <div class="blanks" id="story-section"></div>
-        <section data-aos="fade-right" data-aos-duration="2000" class="story-section">
+        <section data-aos="zoom-in-down" data-aos-duration="2000" class="story-section">
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-12 col-md-5" id="story">
                     <h2>The Mystery of the Missing Jewels</h2>
                     <br><p>There are 4 unique multiverses that coexist but never interact. Being Dinosaurians, the now more-evolved dinosaur 
                     humans, their dinosaur features are greatly dependent from their individual universe’s jewel. Without the jewel, 
-                    they lose their identity as Dinosaurians, losing all their dinosaur features rapidly from the moment the jewel is gone. When the unexpected happens, the greatest mystery of the Jurassic period occurs: the 4 universes get merged into one – the current SUTD campus. Suspicions and distrust arise between the 4 representatives of their universes (Rubellite, Aquamarine, Citrine, Jadeite) as they have reason to believe that one of them is the kidnapper who just wants their species to be the only one that retains its dinosaur features. How will they find their missing jewels and restore the 4 universes? This is: <b>Multiverse Mystery</b>
+                    they lose their identity as Dinosaurians, losing all their dinosaur features rapidly from the moment the jewel is gone. When the unexpected happens, the greatest mystery of the Jurassic period occurs: the 4 universes get merged into one – the current SUTD campus. Suspicions and distrust arise between the 4 representatives of their universes (Rubellite, Aquamarine, Citrine, Jadeite) as they have reason to believe that one of them is the kidnapper who just wants their species to be the only one that retains its dinosaur features. How will they find their missing jewels and restore the 4 universes? This is: Multiverse Mystery
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
@@ -125,18 +150,61 @@
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-12 col-md-5">
+                
                     <h2 class="reporting">Reporting Details</h2>
-                    <h4>Dates: 8-10 September 2022</h4>
-                        <p>(placeholder)</p>
-                    <h4>Reporting Location: Fifth-Row Alley</h4>
-                        <p>(placeholder)</p>
-                    <h4>How to get to SUTD</h4>
-                        <p>(placeholder)</p>
-                    <h4>Packing List</h4>
-                        <p>(placeholder)</p>
+                   
+                        <div class="accordion-item1">
+                            <b>Dates: 8-10 September 2022</b>
+                            <i class="icon-sort-down"></i>
+                        </div>
+                        <div class="accordion-answer1">
+                            <p>More details about reporting timings and attire for the day will be informed closer to orientation dates will be released soon!</p>
+                        </div>
+                    <div class="accordion">
+                        <div class="accordion-item2">
+                            <b>Reporting Location: Indoor Sports Hall</b>
+                            <i class="icon-sort-down"></i>
+                        </div>
+                        <div class="accordion-answer2">
+                            <p>More details will be released soon!</p>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="accordion-item3">
+                            <b>How to get to SUTD</b>
+                            <i class="icon-sort-down"></i>
+                        </div>
+                        <div class="accordion-answer3">
+                            <p><a href="https://www.sutd.edu.sg/About/Contact-Us/Getting-Here" target="_blank">https://www.sutd.edu.sg/About/Contact-Us/Getting-Here</a></p>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="accordion-item4">
+                            <b>Packing List</b>
+                            <i class="icon-sort-down"></i>
+                        </div>
+                        <div class="accordion-answer4">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">S/N</th>
+                                        <th scope="col">Item</th>
+                                        <th scope="col">Quantity</th>
+                                    </tr>
+                                </thead>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Attire</th>
+                                        
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-5" id="gMap">
-                    <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7249803314576!2d103.96114931399768!3d1.3413700619781364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3cd899f260cb%3A0x99becabc6d025518!2sSingapore%20University%20of%20Technology%20%26%20Design%20(SUTD)!5e0!3m2!1sen!2ssg!4v1653292770304!5m2!1sen!2ssg" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="col-12 col-md-1"></div>
+                <div class="col-12 col-md-4" id="gMap">
+                    <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7249803314576!2d103.96114931399768!3d1.3413700619781364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3cd899f260cb%3A0x99becabc6d025518!2sSingapore%20University%20of%20Technology%20%26%20Design%20(SUTD)!5e0!3m2!1sen!2ssg!4v1653292770304!5m2!1sen!2ssg" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col-md-1"></div>
             </div>

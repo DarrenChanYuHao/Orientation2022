@@ -210,25 +210,19 @@ nav {
 }
 
 #Jewel {
-    height: 30vw;
+    height: 35vw;
     width: 40vw;
     position: absolute;
     top: calc(50% - 150px);
 }
 
-.card_video span {
-    position: absolute;
-    width: var(--size);
-    height: var(--size);
-    -webkit-filter: drop-shadow(0px 0px 10px rgba(165, 250, 0, 1));
-    filter: drop-shadow(0px 0px 10px rgba(165, 250, 0, 1));
-}
 .card_video {
     --size: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    padding-top: 100px;
 
 }
 
@@ -253,6 +247,24 @@ nav {
     vertical-align: middle;
     height:200px;
     margin:20px;
+}
+
+.accordion-item1, .accordion-item2, .accordion-item3,.accordion-item4{
+	padding: 10px;
+    margin-top: 40px;
+	text-align: justify;
+	color: #FFF;
+	background-color:#283042;
+    opacity: 0.7;
+	border: solid 1px white;
+    line-height: 1px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.accordion-answer1, .accordion-answer2, .accordion-answer3,.accordion-answer4{
+	padding: 10px;
+    text-align: justify;
+	display: none;
 }
 
 #gMap {
