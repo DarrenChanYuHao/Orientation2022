@@ -250,13 +250,18 @@ nav {
 }
 
 .accordion-item-title.active{
-    color:red;
+    background-color: #bcbaba;
+    color:#000000;
 }
 
 .accordion-item-title{
-    padding-bottom:20px;
+    padding:10px;
+    color:white;
     margin-top:10px;
     cursor:pointer;
+    border-radius: 10px;
+    background-color: #283042;
+    opacity:0.8;
 }
 
 .accordion-item-body{
