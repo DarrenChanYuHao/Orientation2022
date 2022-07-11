@@ -51,3 +51,27 @@ scrolltop.addEventListener("click",function(){
         behavior:"smooth"
     });
 });
+
+//accordion reference: https://www.youtube.com/watch?v=dr8Emho-kYo&t=487s
+
+const accordiontitles=document.querySelectorAll(".accordion-item-title");
+
+accordiontitles.forEach(accordiontitle=>{
+    accordiontitle.addEventListener("click",event=> {
+        const activeaccordiontitle=document.querySelector(".accordion-item-title.active");
+        if (activeaccordiontitle && activeaccordiontitle!==accordiontitle){
+            activeaccordiontitle.classList.toggle("active");
+            activeaccordiontitle.nextElementSibling.style.maxHeight=0;
+        }
+
+        accordiontitle.classList.toggle("active")
+        const accordionanswer=accordiontitle.nextElementSibling;
+        //if title is selected, display the answer
+        if (accordiontitle.classList.contains("active")){
+            accordionanswer.style.maxHeight=accordionanswer.scrollHeight+"px";
+        }
+        else{
+            accordionanswer.style.maxHeight=0;
+        }
+    });
+});
