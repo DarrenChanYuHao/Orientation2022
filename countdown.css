@@ -9,6 +9,7 @@ html, body{
 .responsive{
     max-width: 30%;
     height:auto;
+    padding-top: 80px;
 }
 
 .responsive-title{
@@ -23,6 +24,7 @@ html, body{
     display: flex;
     flex-direction: column;
     padding-top:30px;
+    max-height:360vh;
 }
 
 .countdown-content{
@@ -55,14 +57,14 @@ h1, h2, h4{
     display: flex;
     position: absolute; 
     transform: translate3d(0px, 0px, 0px);
-    margin-top: 55%;
+    margin-top: 52%;
 }
 
 .animate-box span{
     display:block;
     width: 20px; 
     height: 20px;
-    border:1px solid #383838;
+    border:1.5px solid #383838;
     transform:rotate(45deg);
     animation: animate 3s infinite;
     
@@ -92,6 +94,8 @@ h1, h2, h4{
 
 .reporting{
     margin-bottom:35px;
+    max-height:180vh;
+    height:auto;
 }
 
 .video-section{
@@ -110,7 +114,31 @@ h1, h2, h4{
     padding:20px;
     text-align:justify;
 }
-
+#background-video {
+    width: 100vw;
+    height:100vh;
+    max-height: 360vh;
+    object-fit: cover;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0.4;
+}
+#background-video:before{
+    content:"";
+    background-color:#eeeeee;
+    width: 100vw;
+    height:100vh;
+    max-height: 300vh;
+    z-index:-1;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    object-fit: cover;
+    position: absolute;
+ 
+}
 .houses-section {
     text-align: center;
     height: 70vh;
@@ -272,7 +300,6 @@ nav {
     margin-top:10px;
 }
 
-
 #gMap {
     text-align: center;
 }
@@ -339,7 +366,7 @@ footer {
         display:block;
         width: 20px; 
         height: 20px;
-        border:1px solid #383838;
+        border:1.5px solid #383838;
         transform:rotate(45deg);
         animation: animate 3s infinite;
     }
@@ -431,7 +458,7 @@ footer {
         height:80vh;
     }
     .story-section{
-        height:160vh;
+        height:180vh;
         text-align:justify;
     }
     #story h2, #story p {
@@ -503,6 +530,7 @@ footer {
          justify-content: center;
          display: flex;
      }
+
     .responsive_story{
         margin-top: 40px;
     }
