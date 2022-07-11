@@ -52,7 +52,7 @@ scrolltop.addEventListener("click",function(){
     });
 });
 
-//accordion reference: https://www.youtube.com/watch?v=dr8Emho-kYo&t=487s
+//accordion reference 
 
 const accordiontitles=document.querySelectorAll(".accordion-item-title");
 
