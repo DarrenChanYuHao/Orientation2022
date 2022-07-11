@@ -257,7 +257,7 @@ nav {
 .accordion-item-title{
     padding:10px;
     color:white;
-    margin-top:10px;
+    margin-top:20px;
     cursor:pointer;
     border-radius: 5px;
     background-color: #283042;
@@ -269,6 +269,7 @@ nav {
     overflow:hidden;
     transition:max-height 0.2s ease-out;
     margin-bottom:10px;
+    margin-top:10px;
 }
 
 
