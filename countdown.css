@@ -32,6 +32,12 @@ html, body{
     flex-direction: row;
     justify-content: center;
 }
+.days,.hours,.minutes,.seconds{
+    background-color: #283042;
+    border-radius: 10px;
+    padding:10px;
+    color:white;
+}
 
 .orientation-date{
     display: flex;
@@ -114,6 +120,7 @@ h1, h2, h4{
     padding:20px;
     text-align:justify;
 }
+
 #background-video {
     width: 100vw;
     height:125vh;
