@@ -139,7 +139,7 @@ h1, h2, h4{
     content:"";
     background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
     width: 100vw;
-    height:150vh;
+    height:125vh;
     max-height: 300vh;
     z-index:-1;
     top:0;
