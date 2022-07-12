@@ -461,8 +461,12 @@ footer {
         height:180vh;
         text-align:justify;
     }
-    #story h2, #story p {
-        width: 90%;
+    #story {
+        text-align: justify;
+    }
+    #prg {
+        max-width: 95vw;
+        padding-left: 5vw;
     }
     .details-section{
         height:200vh;
