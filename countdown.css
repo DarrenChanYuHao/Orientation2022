@@ -7,7 +7,7 @@ html, body{
 }
 
 .responsive{
-    max-width: 30vw;
+    max-width: 15vw;
     height:auto;
     padding-top: 80px;
 }
