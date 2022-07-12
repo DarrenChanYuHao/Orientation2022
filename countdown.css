@@ -371,7 +371,7 @@ footer {
         display: flex;
         position: absolute; 
         transform: translate3d(0px, 0px, 0px);
-        margin-top: 450px;
+        margin-top: 550px;
     }
     
     .animate-box span{
@@ -457,7 +457,7 @@ footer {
         display: flex;
         position: absolute; 
         transform: translate3d(0px, 0px, 0px);
-        margin-top: 450px;
+        margin-top: 550px;
     }
     .vid:before{
         height:120vh;
