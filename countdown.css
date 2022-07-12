@@ -382,6 +382,9 @@ footer {
         transform:rotate(45deg);
         animation: animate 3s infinite;
     }
+    .vid:before{
+        height:90vh;
+    }
     .responsive{
         width:100%;
         height:70%;
