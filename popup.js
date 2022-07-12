@@ -67,3 +67,10 @@ window.onclick = function(event) {
     sideMenu.style.display = "none";
   }
 }
+
+const sidelist = document.querySelectorAll("#sideMenuOptions li a");
+sidelist.forEach(link => {
+  link.onclick = function() {
+    sideMenu.style.display = 'none'
+  }
+})
