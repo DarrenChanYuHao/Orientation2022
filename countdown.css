@@ -116,19 +116,23 @@ h1, h2, h4{
 }
 #background-video {
     width: 100vw;
-    height:100vh;
-    max-height: 360vh;
+    height:125vh;
+    max-height: 400vh;
     object-fit: cover;
     position: absolute;
     overflow: hidden;
     z-index: -1;
-    opacity: 0.4;
+    opacity:0.4;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
 }
-#background-video:before{
+.vid:before{
     content:"";
-    background-color:#eeeeee;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
     width: 100vw;
-    height:100vh;
+    height:150vh;
     max-height: 300vh;
     z-index:-1;
     top:0;
@@ -139,6 +143,7 @@ h1, h2, h4{
     position: absolute;
  
 }
+
 .houses-section {
     text-align: center;
     height: 70vh;
