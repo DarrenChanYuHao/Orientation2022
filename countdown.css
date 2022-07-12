@@ -156,7 +156,7 @@ h1, h2, h4{
     height: 70vh;
 } 
 
-.sponsors-section, .contact-section{
+.sponsors-section {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -318,10 +318,6 @@ nav {
 
 .sponsors-icons img {
     height: 50px;
-}
-
-.contact-icons img{
-    height: 40px;
 }
 
 /*footer reference from ori 2020 footer*/
@@ -519,6 +515,8 @@ footer {
         padding: 10px 100px;
         font-size: 16px;
     }
+    nav ul#menu {display: none;}
+    nav img#hamburg-menu {display: inline-block;}
 }
 
 /*large devices*/
@@ -576,9 +574,4 @@ footer {
 
 #hamburg-menu:hover {
     cursor: pointer;
-}
-
-@media screen and (max-width: 800px) {
-    nav ul#menu {display: none;}
-    nav img#hamburg-menu {display: inline-block;}
 }

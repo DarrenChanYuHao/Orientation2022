@@ -87,3 +87,10 @@
         font-size: 15px!important;
     }
 }
+
+@media screen and (max-height:576px){
+    #sideMenuOptions li {
+        display: block;
+        padding: 25px;
+    }
+}
