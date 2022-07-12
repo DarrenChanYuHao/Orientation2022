@@ -383,7 +383,10 @@ footer {
         animation: animate 3s infinite;
     }
     .vid:before{
-        height:90vh;
+        height:125vh;
+    }
+    .Trailer{
+        padding-top:150px;
     }
     .responsive{
         width:100%;
@@ -456,7 +459,9 @@ footer {
         transform: translate3d(0px, 0px, 0px);
         margin-top: 450px;
     }
-    
+    .vid:before{
+        height:120vh;
+    }
     .Trailer{
         margin-top:50px;
     }
