@@ -502,7 +502,9 @@ footer {
     .responsive_story{
         margin-top: 30px;
     }
-    
+    .responsive{
+        width:40%;
+    }    
     .text{
        font-size:70%;
     }
