@@ -63,7 +63,7 @@ h1, h2, h4{
     display: flex;
     position: absolute; 
     transform: translate3d(0px, 0px, 0px);
-    margin-top: 52%;
+    margin-top: 55%;
 }
 
 .animate-box span{
