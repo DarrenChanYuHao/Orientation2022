@@ -7,7 +7,7 @@ html, body{
 }
 
 .responsive{
-    max-width: 30%;
+    max-width: 30vw;
     height:auto;
     padding-top: 80px;
 }
@@ -389,7 +389,7 @@ footer {
         padding-top:150px;
     }
     .responsive{
-        width:100%;
+        width:40%;
         height:70%;
     }
     .responsive-title{
