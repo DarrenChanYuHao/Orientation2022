@@ -546,6 +546,7 @@ footer {
          padding:25px;
     }
     .responsive-title{
+        width:80vw;
         padding-top:30px;
     }
     #background-video {
