@@ -5,7 +5,6 @@ html, body{
     scroll-behavior: smooth;
     overflow-x:hidden;
 }
-
 .responsive-title{
     width:50vw;
     padding-bottom:20px;
@@ -304,6 +303,7 @@ nav {
     transition:max-height 0.2s ease-out;
     margin-bottom:10px;
     margin-top:10px;
+    padding:5px;
 }
 
 #gMap {
@@ -407,7 +407,7 @@ footer {
 
     .details-section, .houses-section {
         text-align: center;
-        height: 50vh;
+        height: auto;
     } 
 
     .countdown-section{
@@ -457,6 +457,9 @@ footer {
     .Trailer{
         margin-top:50px;
     }
+    #Jewel {
+        top: calc(50% - 50px);
+    }
 /* 
     .countdown-section{
         height:58vh;
@@ -481,7 +484,7 @@ footer {
         padding-left: 5vw;
     }
     .details-section{
-        height:200vh;
+        height:auto;
     }
     .houses-section {
         text-align: center;
