@@ -8,6 +8,7 @@ html, body{
 .responsive-title{
     width:50vw;
     padding-bottom:20px;
+    padding-top:10px;
 }
 
  /*countdown section*/
@@ -103,6 +104,7 @@ h1, h2, h4{
     justify-content: center;
     display: flex;
     height:30vh;
+    /* height:30vh; original vid height */
 }
 
 .story-section{
@@ -246,7 +248,7 @@ nav {
     height: 35vw;
     width: 40vw;
     position: absolute;
-    top: calc(50% - 150px);
+    top: calc(50% - 130px);
 }
 
 .card_video {
@@ -437,12 +439,6 @@ footer {
 @media screen and (max-width:768px) {
     
     .animate-box{
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        display: flex;
-        position: absolute; 
-        transform: translate3d(0px, 0px, 0px);
         margin-top: 500px;
     }
     
@@ -458,7 +454,7 @@ footer {
         margin-top:50px;
     }
     #Jewel {
-        top: calc(50% - 50px);
+        top: calc(50% - 60px);
     }
 /* 
     .countdown-section{
@@ -470,7 +466,8 @@ footer {
     }
     .video-section{
         
-        height:80vh;
+        height:auto;
+        /* height:80vh original */
     }
     .story-section{
         height:180vh;
@@ -527,7 +524,7 @@ footer {
      }
      
      .animate-box{
-         padding-top: 30px;
+         padding-top: 500px;
      }
      
      .Trailer{
@@ -543,19 +540,20 @@ footer {
          justify-content: center;
          display: flex;
      }
- 
-     .story-section{
-         align-items: center;
-         justify-content: center;
-         display: flex;
-     }
 
-    .responsive_story{
-        margin-top: 40px;
-    }
     .pop_desc{
          font-size:14px;
          padding:25px;
+    }
+    .responsive-title{
+        padding-top:30px;
+    }
+    #background-video {
+        height:50vh;
+    }
+
+    .vid:before{
+        height:50vh;
     }
 }
 
