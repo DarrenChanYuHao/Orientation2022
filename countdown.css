@@ -155,7 +155,7 @@ h1, h2, h4{
     align-items: center;
     display: flex;
     flex-direction: column;
-    height:25vh;
+    height:auto;
 }
 .Trailer{
     justify-content: center;
@@ -451,7 +451,7 @@ footer {
     }
 
     .vid:before{
-        height:60vh;
+        height:90vh;
     }
     
     .Trailer{
@@ -490,7 +490,7 @@ footer {
     
     .responsive-title{
         width:80vw;
-        padding-top:70px;
+        padding-top:80px;
     }
     .responsive_story{
         margin-top: 30px;
