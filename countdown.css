@@ -447,7 +447,7 @@ footer {
     }
     
     #background-video {
-        height:60vh;
+        height:90vh;
     }
 
     .vid:before{
@@ -490,7 +490,7 @@ footer {
     
     .responsive-title{
         width:80vw;
-        padding-top:50px;
+        padding-top:70px;
     }
     .responsive_story{
         margin-top: 30px;
