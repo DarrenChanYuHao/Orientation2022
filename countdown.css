@@ -17,7 +17,7 @@ html, body{
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding-top:200px;
+    padding-top:150px;
     max-height:360vh;
 }
 
@@ -58,7 +58,7 @@ h1, h2, h4{
     display: flex;
     position: absolute; 
     transform: translate3d(0px, 0px, 0px);
-    margin-top: 55%;
+    padding-top:450px;
 }
 
 .animate-box span{
@@ -118,8 +118,8 @@ h1, h2, h4{
 
 #background-video {
     width: 100vw;
-    height:125vh;
-    max-height: 400vh;
+    height:110vh;
+    max-height: 300vh;
     object-fit: cover;
     position: absolute;
     overflow: hidden;
@@ -134,7 +134,7 @@ h1, h2, h4{
     content:"";
     background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
     width: 100vw;
-    height:125vh;
+    height:110vh;
     max-height: 300vh;
     z-index:-1;
     top:0;
@@ -457,7 +457,10 @@ footer {
     }
     
     .vid:before{
-        height:120vh;
+        height:60vh;
+    }
+    #background-video {
+        height:60vh;
     }
     .Trailer{
         margin-top:50px;
@@ -494,8 +497,8 @@ footer {
     }
     
     .responsive-title{
-        width:90vw;
-        padding-top:100px;
+        width:80vw;
+        padding-top:80px;
     }
     .responsive_story{
         margin-top: 30px;
