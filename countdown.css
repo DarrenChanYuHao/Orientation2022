@@ -18,7 +18,7 @@ html, body{
     display: flex;
     flex-direction: column;
     padding-top:150px;
-    max-height:360vh;
+    
 }
 
 .countdown-content{
@@ -549,11 +549,14 @@ footer {
         padding-top:30px;
     }
     #background-video {
-        height:50vh;
+        height:70vh;
     }
 
     .vid:before{
-        height:50vh;
+        height:70vh;
+    }
+    #Jewel {
+        top: calc(50% - 100px);
     }
 }
 
