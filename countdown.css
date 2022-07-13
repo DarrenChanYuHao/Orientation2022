@@ -6,15 +6,9 @@ html, body{
     overflow-x:hidden;
 }
 
-.responsive{
-    width: 15vw;
-    height:auto;
-    padding-top: 80px;
-}
-
 .responsive-title{
-    width:60%;
-    height:60%;
+    width:50vw;
+    padding-bottom:20px;
 }
 
  /*countdown section*/
@@ -23,7 +17,7 @@ html, body{
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding-top:30px;
+    padding-top:200px;
     max-height:360vh;
 }
 
@@ -31,19 +25,19 @@ html, body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top:20px;
 }
 .days,.hours,.minutes,.seconds{
     background-color: #283042;
     border-radius: 10px;
     padding:10px;
     color:white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    justify-content:center;
+    align-items: center;
+    display:flex;
 }
 
-.orientation-date{
-    display: flex;
-    flex-direction: row;
-    margin-left:30px;
-}
 
 .text{
     margin:40px;
@@ -54,6 +48,7 @@ html, body{
 h1, h2, h4{
     font-weight: 600!important;
     font-family:Bluu Next,serif!important;
+    font-variant: small-caps;
 }
 
 .animate-box{
@@ -394,8 +389,8 @@ footer {
         width:40%;
     }
     .responsive-title{
-        width:10%;
-        height:70%;
+        width:90vw;
+        padding-top:100px;
     }
     #Jewel {
         height: 250px;
@@ -497,9 +492,10 @@ footer {
         text-align: center;
         height: 180vh;
     }
+    
     .responsive-title{
-        width:100%;
-        height:70%;
+        width:90vw;
+        padding-top:100px;
     }
     .responsive_story{
         margin-top: 30px;
