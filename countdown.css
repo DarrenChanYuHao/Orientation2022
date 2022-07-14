@@ -347,7 +347,7 @@ footer {
 
 /*small devices*/
 
-@media screen and (max-width:576px){
+@media screen and (max-width:576px) and (orientation:landscape){
     
     h1{
         font-size:25px!important;
@@ -440,7 +440,7 @@ footer {
 }
 
 /*Medium Devices*/
-@media screen and (max-width:768px) {
+@media screen and (max-width:768px) and (orientation:landscape){
     
     .animate-box{
         margin-top: 500px;
@@ -521,7 +521,7 @@ footer {
 }
 
 /*large devices*/
-@media  screen and (min-width:768px) and (max-width:1199.98px){
+@media  screen and (min-width:768px) and (max-width:1199.98px) and (orientation:landscape){
     .text{
         font-size:70%;
         text-align: justify;
