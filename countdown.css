@@ -308,6 +308,10 @@ nav {
     padding:5px;
 }
 
+.accordion-item-answer{
+    text-align: justify;
+}
+
 #gMap {
     text-align: center;
 }
