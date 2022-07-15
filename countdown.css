@@ -450,15 +450,15 @@ footer {
 @media screen and (max-width:768px){
     
     .animate-box{
-        margin-top: 500px;
+        margin-top: 600px;
     }
     
     #background-video {
-        height:90vh;
+        height:95vh;
     }
 
     .vid:before{
-        height:90vh;
+        height:95vh;
     }
     
     .Trailer{
@@ -467,16 +467,11 @@ footer {
     #Jewel {
         top: calc(50% - 60px);
     }
-/* 
-    .countdown-section{
-        height:58vh;
-    } */
     
     .maps{
         width:500px;
     }
     .video-section{
-        
         height:auto;
         /* height:80vh original */
     }
@@ -501,7 +496,7 @@ footer {
     
     .responsive-title{
         width:85vw;
-        padding-top:100px;
+        padding-top:120px;
     }
     .responsive_story{
         margin-top: 30px;
@@ -537,6 +532,9 @@ footer {
     }
     .animate-box{
         margin-top: 180px;
+    }
+    .responsive-title{
+        padding-top:80px;
     }
 }
 
