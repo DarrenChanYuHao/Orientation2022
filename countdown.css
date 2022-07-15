@@ -165,6 +165,13 @@ h1, h2, h4{
     flex-direction: column;
 }
 
+.temp-text{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top:100px;
+}
 .responsive_story{
     max-width: 70%;
     height:auto;
