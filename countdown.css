@@ -528,7 +528,7 @@ footer {
 }
 
 /*large devices*/
-@media  screen and (min-width:768px) and (max-width:1199.98px){
+@media  screen and (min-width:768px) and (max-width:1200px){
     .text{
         font-size:70%;
         text-align: justify;
@@ -561,7 +561,7 @@ footer {
         padding-top:30px;
     }
     #background-video {
-        height:70vh;
+        height:80vh;
     }
 
     .vid:before{
