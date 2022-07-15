@@ -527,6 +527,16 @@ footer {
     nav img#hamburg-menu {display: inline-block;}
 }
 
+@media screen and (max-width:768px) and (orientation:landscape){
+    #background-video {
+        height:150vh;
+    }
+
+    .vid:before{
+        height:150vh;
+    }
+}
+
 /*large devices*/
 @media  screen and (min-width:768px) and (max-width:1200px){
     .text{
