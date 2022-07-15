@@ -529,14 +529,14 @@ footer {
 
 @media screen and (max-width:768px) and (orientation:landscape){
     #background-video {
-        height:250vh;
+        height:200vh;
     }
 
     .vid:before{
-        height:250vh;
+        height:200vh;
     }
     .animate-box{
-        margin-top: 300px;
+        margin-top: 180px;
     }
 }
 
