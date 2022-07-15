@@ -103,7 +103,7 @@ h1, h2, h4{
     align-items: center;
     justify-content: center;
     display: flex;
-    height:30vh;
+    height:auto;
     /* height:30vh; original vid height */
 }
 
@@ -165,13 +165,9 @@ h1, h2, h4{
     flex-direction: column;
 }
 
-/* .temp-text{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    padding-top:100px;
-} */
+.temp-text{
+    padding-top:30px;
+}
 .responsive_story{
     max-width: 70%;
     height:auto;
@@ -524,14 +520,14 @@ footer {
 
 @media screen and (max-width:768px) and (orientation:landscape){
     #background-video {
-        height:200vh;
+        height:240vh;
     }
 
     .vid:before{
-        height:200vh;
+        height:240vh;
     }
     .animate-box{
-        margin-top: 180px;
+        margin-top: 160px;
     }
     .responsive-title{
         padding-top:80px;
