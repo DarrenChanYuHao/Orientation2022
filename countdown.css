@@ -455,11 +455,11 @@ footer {
         padding-top:100px;
     }
     #background-video {
-        height:75vh;
+        height:65vh;
     }
 
     .vid:before{
-        height:75vh;
+        height:65vh;
     }
     .maps{
         width:80%;
