@@ -442,6 +442,13 @@ footer {
     
 }
 
+@media screen and (max-width:576px) and (orientation:landscape){
+    .responsive-title {
+        height:200vh;
+    }
+
+}
+
 /*Medium Devices*/
 @media screen and (max-width:768px){
     
