@@ -108,7 +108,7 @@ h1, h2, h4{
 }
 
 .story-section{
-    height: 80vh;
+    height: auto;
     text-align:justify;
 }
 
@@ -148,7 +148,7 @@ h1, h2, h4{
 
 .houses-section {
     text-align: center;
-    height: 70vh;
+    height: auto;
 } 
 
 .sponsors-section {
@@ -472,7 +472,7 @@ footer {
         /* height:80vh original */
     }
     .story-section{
-        height:180vh;
+        height:auto;
         text-align:justify;
     }
     #story {
@@ -487,7 +487,7 @@ footer {
     }
     .houses-section {
         text-align: center;
-        height: 180vh;
+        height: auto;
     }
     
     .responsive-title{
