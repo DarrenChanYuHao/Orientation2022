@@ -446,6 +446,13 @@ footer {
     .responsive-title {
         height:200vh;
     }
+    #background-video {
+        height:80vh;
+    }
+
+    .vid:before{
+        height:80vh;
+    }
 
 }
 
