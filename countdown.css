@@ -454,7 +454,9 @@ footer {
     .vid:before{
         height:80vh;
     }
-
+    .maps{
+        width:80%;
+    }
 }
 
 /*Medium Devices*/
