@@ -444,8 +444,8 @@ footer {
 
 @media screen and (max-width:576px) and (orientation:landscape){
     .responsive-title {
-        height:200vh;
         width:80vw;
+        padding-top:100px;
     }
     #background-video {
         height:80vh;
