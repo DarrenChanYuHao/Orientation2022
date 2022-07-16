@@ -388,7 +388,7 @@ footer {
         width:40%;
     }
     .responsive-title{
-        width:80vw;
+        width:85vw;
         padding-top:100px;
     }
     #Jewel {
@@ -445,6 +445,7 @@ footer {
 @media screen and (max-width:576px) and (orientation:landscape){
     .responsive-title {
         height:200vh;
+        width:80vw;
     }
     #background-video {
         height:80vh;
