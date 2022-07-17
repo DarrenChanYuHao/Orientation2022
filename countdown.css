@@ -169,6 +169,7 @@ h1, h2, h4{
     align-items: center;
     display: flex;
     flex-direction: column;
+    padding-top:20px;
 }
 
 .temp-text{
@@ -490,10 +491,10 @@ footer {
     .vid:before{
         height:90vh;
     }
-/*     
+    
     .Trailer{
         margin-top:50px;
-    } */
+    }
     #Jewel {
         top: calc(50% - 60px);
     }
@@ -579,9 +580,9 @@ footer {
          padding-top: 500px;
      }
      
-/*      .Trailer{
+     .Trailer{
          margin-top:50px;
-     } */
+     }
  
      .countdown-section{
          height:auto;
@@ -613,7 +614,7 @@ footer {
         height:70vh;
     }
     #Jewel {
-        top: calc(50% - 100px);
+        top: calc(100% - 10px);
     }
 }
 
