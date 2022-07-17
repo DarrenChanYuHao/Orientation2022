@@ -628,6 +628,17 @@ footer {
         height:150vh;
     }
 }
+
+@media screen and (min-width:1440px){
+    #background-video {
+        height:60vh;
+    }
+
+    .vid:before{
+        height:60vh;
+    }
+    
+}
 #hamburg-menu {
     display: none;
     width: 35px;
