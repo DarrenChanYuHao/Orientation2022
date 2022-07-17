@@ -169,7 +169,6 @@ h1, h2, h4{
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding-top:20px;
 }
 
 .temp-text{
@@ -389,7 +388,7 @@ footer {
         animation: animate 3s infinite;
     }
     .Trailer{
-        padding-top:150px;
+        padding-top:80px;
     }
     .responsive{
         width:40%;
@@ -491,10 +490,10 @@ footer {
     .vid:before{
         height:90vh;
     }
-    
+/*     
     .Trailer{
         margin-top:50px;
-    }
+    } */
     #Jewel {
         top: calc(50% - 60px);
     }
@@ -580,9 +579,9 @@ footer {
          padding-top: 500px;
      }
      
-     .Trailer{
+/*      .Trailer{
          margin-top:50px;
-     }
+     } */
  
      .countdown-section{
          height:auto;
