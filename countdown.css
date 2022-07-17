@@ -609,11 +609,11 @@ footer {
 
 @media screen and (min-width:769px) and (max-width:1200px) and (orientation:landscape){
     #background-video {
-        height:200vh;
+        height:150vh;
     }
 
     .vid:before{
-        height:200vh;
+        height:150vh;
     }
 }
 #hamburg-menu {
