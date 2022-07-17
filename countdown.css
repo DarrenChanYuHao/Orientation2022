@@ -456,11 +456,11 @@ footer {
         padding-top:600px;
     }
     #background-video {
-        height:65vh;
+        height:150vh;
     }
 
     .vid:before{
-        height:65vh;
+        height:150vh;
     }
     .maps{
         width:80%;
@@ -548,11 +548,11 @@ footer {
 
 @media screen and (max-width:768px) and (orientation:landscape){
     #background-video {
-        height:180vh;
+        height:200vh;
     }
 
     .vid:before{
-        height:180vh;
+        height:200vh;
     }
     .animate-box{
         margin-top: 160px;
@@ -563,7 +563,7 @@ footer {
 }
 
 /*large devices*/
-@media  screen and (min-width:768px) and (max-width:1200px){
+@media  screen and (min-width:769px) and (max-width:1200px){
     .text{
         font-size:70%;
         text-align: justify;
