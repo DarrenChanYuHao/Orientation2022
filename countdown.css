@@ -420,6 +420,7 @@ footer {
     } 
 
     .countdown-section{
+        height:auto;
         padding-top: 70px;
     }
     .story-section{
@@ -547,11 +548,11 @@ footer {
 
 @media screen and (max-width:768px) and (orientation:landscape){
     #background-video {
-        height:240vh;
+        height:180vh;
     }
 
     .vid:before{
-        height:240vh;
+        height:180vh;
     }
     .animate-box{
         margin-top: 160px;
@@ -577,7 +578,7 @@ footer {
      }
  
      .countdown-section{
-         height:58vh;
+         height:auto;
      }
      
      .video-section{
