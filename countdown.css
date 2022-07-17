@@ -163,6 +163,7 @@ h1, h2, h4{
     align-items: center;
     display: flex;
     flex-direction: column;
+    padding-top:20px;
 }
 
 .temp-text{
