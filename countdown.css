@@ -108,7 +108,7 @@ h1, h2, h4{
 }
 
 .story-section{
-    height: auto;
+    height: 55vh;
     text-align:justify;
 }
 
@@ -588,6 +588,10 @@ footer {
          display: flex;
      }
 
+     .story-section{
+        height:auto;
+        text-align:justify;
+    }
     .pop_desc{
          font-size:14px;
          padding:25px;
