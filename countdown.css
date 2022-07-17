@@ -5,6 +5,12 @@ html, body{
     scroll-behavior: smooth;
     overflow-x:hidden;
 }
+
+/*blank space in between section increase height so there is space in between sections */
+#story-section, #video-section, #houses-section, #details-section, #sponsors-section{
+    height:20vh;
+}
+
 .responsive-title{
     width:50vw;
     padding-bottom:20px;
