@@ -631,11 +631,11 @@ footer {
 
 @media screen and (min-width:1440px){
     #background-video {
-        height:60vh;
+        height:75vh;
     }
 
     .vid:before{
-        height:60vh;
+        height:75vh;
     }
     
 }
