@@ -304,8 +304,10 @@ nav {
     display: inline-block;
     align-content: center;
     vertical-align: middle;
-    height:200px;
-    margin:20px;
+}
+
+#houses li ul {
+    padding-left:0px;
 }
 
 .accordion-item-title.active{
@@ -427,8 +429,11 @@ footer {
     .story-section{
         text-align:justify;
     }
-    #rubellite, #jadeite, #citrine, #aquamarine{
-        width:50%;
+    #houses li ul {
+        width: 100vw;
+    }
+    .dino{
+        width:40vw;
     }
     .responsive-iframe{
         position:relative;
