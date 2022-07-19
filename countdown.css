@@ -65,7 +65,7 @@ h1, h2, h4{
     display: flex;
     position: absolute; 
     transform: translate3d(0px, 0px, 0px);
-    padding-top:450px;
+    padding-top:550px;
 }
 
 .animate-box span{
@@ -126,7 +126,7 @@ h1, h2, h4{
 
 #background-video {
     width: 100vw;
-    height:110vh;
+    height:95vh;
     object-fit: cover;
     position: absolute;
     overflow: hidden;
@@ -141,7 +141,7 @@ h1, h2, h4{
     content:"";
     background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
     width: 100vw;
-    height:110vh;
+    height:95vh;
     max-height: 300vh;
     z-index:-1;
     top:0;
