@@ -48,6 +48,16 @@
     background-color: rgba(0,0,0,0);
 }
 
+@keyframes slideIn {
+    from {transform: translate(-25%,-50%);}
+    to {transform: translate(-125%,-50%);}
+}
+
+@keyframes slideOut {
+    from {transform: translate(-125%,-50%);}
+    to {transform: translate(-25%,-50%);}
+}
+
 .modal-content.pop-up.sideMenu {
     height: 100%;
     width: 40%;
@@ -55,6 +65,7 @@
     border-radius: 0;
     float: right;
     transform: translate(-125%,-50%);
+    animation: slideIn 0.5s ease-out;
 }
 
 #menuClose {
