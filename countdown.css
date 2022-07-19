@@ -315,8 +315,8 @@ nav {
     box-shadow: none!important;
 }
 .accordion-button:not(.collapsed){
-    border: 0.5px solid #dddddd!important;
-    border-width: 0 0 0.5px 0!important;
+    border: 1px solid #dddddd!important;
+    border-width: 0 0 1px 0!important;
 }
 .accordion-body{
     text-align:justify;
