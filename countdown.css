@@ -190,8 +190,12 @@ h1, h2, h4{
     display: block;
 }
 
-.dino{
-    padding: 0px;
+.dino {
+    transition: box-shadow 0.3s;
+}
+
+.dino:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
   
@@ -225,6 +229,7 @@ nav {
 
 #menu li a {
     color: #000000;
+    text-decoration: none;
 }
 
 .blanks {
@@ -293,10 +298,6 @@ nav {
 #houses {
     padding-inline-start: 0;
     padding-top:30px;
-}
-
-#rubellite:hover,#jadeite:hover,#aquamarine:hover,#citrine:hover{
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 #houses li {
