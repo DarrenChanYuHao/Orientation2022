@@ -53,9 +53,9 @@
     to {transform: translate(-125%,-50%);}
 }
 
-@keyframes slideOut {
-    from {transform: translate(-125%,-50%);}
-    to {transform: translate(-25%,-50%);}
+@keyframes slideInM {
+    from {transform: translate(0%,-50%);}
+    to {transform: translate(-100%,-50%);}
 }
 
 .modal-content.pop-up.sideMenu {
@@ -86,6 +86,7 @@
     color: #000000;
     font-size: 15px;
     float: right;
+    text-decoration: none;
 }
 
 @media screen and (max-width:576px){
@@ -96,6 +97,12 @@
     }
     .closed #back-to-main {
         font-size: 15px!important;
+    }
+
+    .modal-content.pop-up.sideMenu {
+        width:50%;
+        transform: translate(-100%,-50%);
+        animation: slideInM 0.5s ease-out;
     }
 }
 
