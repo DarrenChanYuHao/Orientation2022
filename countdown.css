@@ -310,9 +310,13 @@ nav {
     padding-left:0px;
 }
 
-.accordion-item-title.active{
-    background-color: #bcbaba;
-    color:#000000;
+.accordion-button {
+    background-color: #ffffff!important;
+    box-shadow: none!important;
+}
+.accordion-button:not(.collapsed){
+    border: 0.5px solid #dddddd!important;
+    border-width: 0 0 0.5px 0!important;
 }
 .accordion-body{
     text-align:justify;
