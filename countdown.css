@@ -13,7 +13,7 @@ html, body{
 }
 
 .responsive-title{
-    width:50vw;
+    width:55vw;
     padding-bottom:20px;
     padding-top:10px;
 }
@@ -292,7 +292,7 @@ nav {
 
 #houses {
     padding-inline-start: 0;
-    padding-top:40px;
+    padding-top:30px;
 }
 
 #houses li {
