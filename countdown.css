@@ -610,11 +610,11 @@ footer {
         padding-top:30px;
     }
     #background-video {
-        height:50vh;
+        height:55vh;
     }
 
     .vid:before{
-        height:50vh;
+        height:55vh;
     }
     #Jewel {
         top: calc(100% - 10px);
@@ -623,11 +623,11 @@ footer {
 
 @media screen and (min-width:769px) and (max-width:1200px) and (orientation:landscape){
     #background-video {
-        height:70vh;
+        height:75vh;
     }
 
     .vid:before{
-        height:70vh;
+        height:75vh;
     }
 }
 
