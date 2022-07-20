@@ -581,7 +581,7 @@ footer {
      }
      
      .animate-box{
-         padding-top: 700px;
+         padding-top: 720px;
      }
      
      .Trailer{
@@ -611,11 +611,11 @@ footer {
         padding-top:30px;
     }
     #background-video {
-        height:55vh;
+        height:58vh;
     }
 
     .vid:before{
-        height:55vh;
+        height:58vh;
     }
     #Jewel {
         top: calc(100% - 10px);
@@ -630,6 +630,9 @@ footer {
     .vid:before{
         height:75vh;
     }
+    .animate-box{
+         padding-top: 670px;
+     }
 }
 
 @media screen and (min-width:1440px){
