@@ -191,6 +191,7 @@ h1, h2, h4{
 
 .dino {
     transition: box-shadow 0.3s;
+    margin: 4px -1px;
 }
 
 .dino:hover{
