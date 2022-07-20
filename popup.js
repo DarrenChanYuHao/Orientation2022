@@ -1,5 +1,6 @@
 // Get the modal
-var sideMenu = document.getElementById("side-Menu");
+var side_Menu = document.getElementById("side-Menu");
+var sideMenu = document.querySelector('.modal-content.pop-up.sideMenu');
 
 var rubPopUp = document.getElementById("rubPopUp");
 
@@ -15,9 +16,9 @@ var rubClose = document.getElementById('rubClose');
 
 // When the user clicks on the button, open the modal
 hamburgMenu.onclick = function() {
-  sideMenu.style.display = "block";
-  setTimeout(() => {sideMenu.style.opacity = '1';}, 1);
-
+  side_Menu.style.display = "block";
+  setTimeout(() => {side_Menu.style.opacity = '1';}, 1);
+  setTimeout(() => {sideMenu.classList.add('show');}, 1);
 }
 
 rubBtn.onclick = function() {
@@ -38,8 +39,9 @@ aquaBtn.onclick = function() {
 
 // When the user clicks on <span> (x), close the modal
 menuClose.onclick = function() {
-  sideMenu.style.opacity = '0';
-  setTimeout(() => {sideMenu.style.display = "none";}, 300);
+  sideMenu.classList.remove('show');
+  setTimeout(() => {side_Menu.style.opacity = '0';}, 1);
+  setTimeout(() => {side_Menu.style.display = "none";}, 300);
 }
 
 rubClose.onclick = function() {
@@ -66,16 +68,18 @@ window.onclick = function(event) {
     citPopUp.style.display = "none";
   } else if (event.target == aquaPopUp) {
     aquaPopUp.style.display = "none";
-  } else if (event.target == sideMenu) {
-    sideMenu.style.opacity = '0';
-    sideMenu.style.display = "none";
+  } else if (event.target == side_Menu) {
+    sideMenu.classList.remove('show');
+    setTimeout(() => {side_Menu.style.opacity = '0';}, 1);
+    setTimeout(() => {side_Menu.style.display = "none";}, 300);
   }
 }
 
 const sidelist = document.querySelectorAll("#sideMenuOptions li a");
 sidelist.forEach(link => {
   link.onclick = function() {
-    sideMenu.style.opacity = '0';
-    sideMenu.style.display = 'none'
+    sideMenu.classList.remove('show');
+    setTimeout(() => {side_Menu.style.opacity = '0';}, 1);
+    setTimeout(() => {side_Menu.style.display = "none";}, 300);
   }
 })

@@ -48,16 +48,6 @@
     background-color: rgba(0,0,0,0);
 }
 
-@keyframes slideIn {
-    from {transform: translate(-25%,-50%);}
-    to {transform: translate(-125%,-50%);}
-}
-
-@keyframes slideInM {
-    from {transform: translate(0%,-50%);}
-    to {transform: translate(-100%,-50%);}
-}
-
 #side-Menu {
     opacity: 0;
     transition: all 0.3s ease-in-out;
@@ -69,8 +59,11 @@
     border: 0;
     border-radius: 0;
     float: right;
+    transform: translate(-25%,-50%);
+    transition: all 0.3s ease-in-out;
+}
+.modal-content.pop-up.sideMenu.show {
     transform: translate(-125%,-50%);
-    /* animation: slideIn 0.5s ease-in-out; */
 }
 
 #menuClose {
@@ -124,8 +117,11 @@
 
     .modal-content.pop-up.sideMenu {
         width:50%;
+        transform: translate(0%,-50%);
+    }
+
+    .modal-content.pop-up.sideMenu.show {
         transform: translate(-100%,-50%);
-        /* animation: slideInM 0.5s ease-in-out; */
     }
 }
 
