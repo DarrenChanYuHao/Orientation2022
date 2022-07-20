@@ -1,4 +1,3 @@
-@import url('https://fonts.cdnfonts.com/css/bluu-next');
 html, body{
     height:auto;
     width:100%;
@@ -488,11 +487,11 @@ footer {
     }
     
     #background-video {
-        height:90vh;
+        height:70vh;
     }
 
     .vid:before{
-        height:90vh;
+        height:70vh;
     }
     
     .Trailer{
@@ -529,7 +528,7 @@ footer {
     }
     
     .responsive-title{
-        width:85vw;
+        width:90vw;
         padding-top:120px;
     }
     .responsive_story{
@@ -558,16 +557,17 @@ footer {
 
 @media screen and (max-width:768px) and (orientation:landscape){
     #background-video {
-        height:240vh;
+        height:190vh;
     }
 
     .vid:before{
-        height:240vh;
+        height:190vh;
     }
     .animate-box{
-        margin-top: 160px;
+        margin-top: 140px;
     }
     .responsive-title{
+        width:85vw;
         padding-top:80px;
     }
 }
@@ -580,7 +580,7 @@ footer {
      }
      
      .animate-box{
-         padding-top: 500px;
+         padding-top: 700px;
      }
      
      .Trailer{
@@ -610,11 +610,11 @@ footer {
         padding-top:30px;
     }
     #background-video {
-        height:70vh;
+        height:50vh;
     }
 
     .vid:before{
-        height:70vh;
+        height:50vh;
     }
     #Jewel {
         top: calc(100% - 10px);
@@ -623,11 +623,11 @@ footer {
 
 @media screen and (min-width:769px) and (max-width:1200px) and (orientation:landscape){
     #background-video {
-        height:150vh;
+        height:70vh;
     }
 
     .vid:before{
-        height:150vh;
+        height:70vh;
     }
 }
 
