@@ -65,7 +65,7 @@
     border-radius: 0;
     float: right;
     transform: translate(-125%,-50%);
-    animation: slideIn 0.5s ease-out;
+    animation: slideIn 0.5s ease-in-out;
 }
 
 #menuClose {
@@ -120,7 +120,7 @@
     .modal-content.pop-up.sideMenu {
         width:50%;
         transform: translate(-100%,-50%);
-        animation: slideInM 0.5s ease-out;
+        animation: slideInM 0.5s ease-in-out;
     }
 }
 
