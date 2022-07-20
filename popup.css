@@ -58,6 +58,11 @@
     to {transform: translate(-100%,-50%);}
 }
 
+#side-Menu {
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
 .modal-content.pop-up.sideMenu {
     height: 100%;
     width: 40%;
@@ -65,7 +70,7 @@
     border-radius: 0;
     float: right;
     transform: translate(-125%,-50%);
-    animation: slideIn 0.5s ease-in-out;
+    /* animation: slideIn 0.5s ease-in-out; */
 }
 
 #menuClose {
@@ -120,7 +125,7 @@
     .modal-content.pop-up.sideMenu {
         width:50%;
         transform: translate(-100%,-50%);
-        animation: slideInM 0.5s ease-in-out;
+        /* animation: slideInM 0.5s ease-in-out; */
     }
 }
 

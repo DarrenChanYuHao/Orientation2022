@@ -16,6 +16,8 @@ var rubClose = document.getElementById('rubClose');
 // When the user clicks on the button, open the modal
 hamburgMenu.onclick = function() {
   sideMenu.style.display = "block";
+  setTimeout(() => {sideMenu.style.opacity = '1';}, 1);
+
 }
 
 rubBtn.onclick = function() {
@@ -36,7 +38,8 @@ aquaBtn.onclick = function() {
 
 // When the user clicks on <span> (x), close the modal
 menuClose.onclick = function() {
-  sideMenu.style.display = "none";
+  sideMenu.style.opacity = '0';
+  setTimeout(() => {sideMenu.style.display = "none";}, 300);
 }
 
 rubClose.onclick = function() {
@@ -64,6 +67,7 @@ window.onclick = function(event) {
   } else if (event.target == aquaPopUp) {
     aquaPopUp.style.display = "none";
   } else if (event.target == sideMenu) {
+    sideMenu.style.opacity = '0';
     sideMenu.style.display = "none";
   }
 }
@@ -71,6 +75,7 @@ window.onclick = function(event) {
 const sidelist = document.querySelectorAll("#sideMenuOptions li a");
 sidelist.forEach(link => {
   link.onclick = function() {
+    sideMenu.style.opacity = '0';
     sideMenu.style.display = 'none'
   }
 })
