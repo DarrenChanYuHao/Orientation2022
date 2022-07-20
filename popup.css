@@ -90,6 +90,23 @@
     text-decoration: none;
 }
 
+@media screen and (min-width:577px) and (max-width:768px) and (orientation:landscape) {
+    .modal-content.pop-up {
+        font-size: 13px;
+        width: 90%;
+        height: auto;
+    }
+    .responsive_story {
+        margin-top: 0;
+    }
+    #rubPopUp .col-md-7, #jadPopUp .col-md-7, #citPopUp .col-md-7, #aquaPopUp .col-md-7 {
+        width: 56%!important;
+    }
+    #rubPopUp .col-md-5, #jadPopUp .col-md-5, #citPopUp .col-md-5, #aquaPopUp .col-md-5 {
+        width: 44%!important;
+    }
+}
+
 @media screen and (max-width:576px){
     .modal-content.pop-up {
         font-size: 13px;
