@@ -64,7 +64,7 @@ h1, h2, h4{
     display: flex;
     position: absolute; 
     transform: translate3d(0px, 0px, 0px);
-    padding-top:550px;
+    padding-top:580px;
 }
 
 .animate-box span{
