@@ -310,6 +310,12 @@ nav {
     padding-left:0px;
 }
 
+.accordion-button:focus {
+    box-shadow: none!important;
+}
+.accordion-button:focus-visible {
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%)!important;
+}
 .accordion-body{
     text-align:justify;
 }
