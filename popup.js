@@ -1,18 +1,34 @@
-// Get the modal
+// Get the modal and corresponding window/panel
 var side_Menu = document.getElementById("side-Menu");
-var sideMenu = document.querySelector('.modal-content.pop-up.sideMenu');
+var sideMenu = document.getElementById('sideMenu');
 
 var rubPopUp = document.getElementById("rubPopUp");
+var rubWindow = document.getElementById('rubWindow');
+
+var jadPopUp = document.getElementById("jadPopUp");
+var jadWindow = document.getElementById('jadWindow');
+
+var citPopUp = document.getElementById("citPopUp");
+var citWindow = document.getElementById('citWindow');
+
+var aquaPopUp = document.getElementById("aquaPopUp");
+var aquaWindow = document.getElementById('aquaWindow');
 
 // Get the button that opens the modal
 var hamburgMenu = document.getElementById("hamburg-menu");
 
 var rubBtn = document.getElementById("rubBtn");
+var jadBtn = document.getElementById("jadBtn");
+var citBtn = document.getElementById("citBtn");
+var aquaBtn = document.getElementById("aquaBtn");
 
 // Get the <span> element that closes the modal
 var menuClose = document.getElementById('menuClose');
 
 var rubClose = document.getElementById('rubClose');
+var jadClose = document.getElementById('jadClose');
+var citClose = document.getElementById('citClose');
+var aquaClose = document.getElementById('aquaClose');
 
 // When the user clicks on the button, open the modal
 hamburgMenu.onclick = function() {
@@ -22,19 +38,23 @@ hamburgMenu.onclick = function() {
 }
 
 rubBtn.onclick = function() {
-    rubPopUp.style.display = "block";
+  rubPopUp.style.display = "block";
+  setTimeout(() => {rubPopUp.style.opacity = '1';}, 1);
 }
 
 jadBtn.onclick = function() {
   jadPopUp.style.display = "block";
+  setTimeout(() => {jadPopUp.style.opacity = '1';}, 1);  
 }
 
 citBtn.onclick = function() {
   citPopUp.style.display = "block";
+  setTimeout(() => {citPopUp.style.opacity = '1';}, 1);
 }
 
 aquaBtn.onclick = function() {
   aquaPopUp.style.display = "block";
+  setTimeout(() => {aquaPopUp.style.opacity = '1';}, 1);
 }
 
 // When the user clicks on <span> (x), close the modal
@@ -45,29 +65,37 @@ menuClose.onclick = function() {
 }
 
 rubClose.onclick = function() {
-    rubPopUp.style.display = "none";
+  setTimeout(() => {rubPopUp.style.opacity = '0';}, 1);
+  setTimeout(() => {rubPopUp.style.display = "none";}, 300);
 }
 
 jadClose.onclick = function() {
-  jadPopUp.style.display = "none";
+  setTimeout(() => {jadPopUp.style.opacity = '0';}, 1);
+  setTimeout(() => {jadPopUp.style.display = "none";}, 300);
 }
 citClose.onclick = function() {
-  citPopUp.style.display = "none";
+  setTimeout(() => {citPopUp.style.opacity = '0';}, 1);
+  setTimeout(() => {citPopUp.style.display = "none";}, 300);
 }
 aquaClose.onclick = function() {
-  aquaPopUp.style.display = "none";
+  setTimeout(() => {aquaPopUp.style.opacity = '0';}, 1);
+  setTimeout(() => {aquaPopUp.style.display = "none";}, 300);
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == rubPopUp) {
-    rubPopUp.style.display = "none";
+    setTimeout(() => {rubPopUp.style.opacity = '0';}, 1);
+    setTimeout(() => {rubPopUp.style.display = "none";}, 300);
   } else if (event.target == jadPopUp) {
-    jadPopUp.style.display = "none";
+    setTimeout(() => {jadPopUp.style.opacity = '0';}, 1);
+    setTimeout(() => {jadPopUp.style.display = "none";}, 300);
   } else if (event.target == citPopUp) {
-    citPopUp.style.display = "none";
+    setTimeout(() => {citPopUp.style.opacity = '0';}, 1);
+    setTimeout(() => {citPopUp.style.display = "none";}, 300);
   } else if (event.target == aquaPopUp) {
-    aquaPopUp.style.display = "none";
+    setTimeout(() => {aquaPopUp.style.opacity = '0';}, 1);
+    setTimeout(() => {aquaPopUp.style.display = "none";}, 300);
   } else if (event.target == side_Menu) {
     sideMenu.classList.remove('show');
     setTimeout(() => {side_Menu.style.opacity = '0';}, 1);
