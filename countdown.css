@@ -488,17 +488,19 @@ footer {
 
 /*Medium Devices*/
 @media screen and (max-width:768px){
-    
+    h3{
+        font-size:20px!important;
+    }
     .animate-box{
         margin-top: 600px;
     }
     
     #background-video {
-        height:70vh;
+        height:75vh;
     }
 
     .vid:before{
-        height:70vh;
+        height:75vh;
     }
     
     .Trailer{
