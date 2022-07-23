@@ -53,7 +53,8 @@ html, body{
 
 h1, h2, h4{
     font-weight: 599!important;
-    font-family:Algerian,serif!important;
+    /*font-family:Algerian,serif!important; */
+    font-family: 'Algeria', sans-serif!important;  
     font-variant: small-caps;
 }
 h3{
