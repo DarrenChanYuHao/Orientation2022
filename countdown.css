@@ -1,4 +1,3 @@
-@import url('http://fonts.cdnfonts.com/css/algeria');
 html, body{
     height:auto;
     width:100%;
@@ -54,7 +53,7 @@ html, body{
 
 h1, h2, h4{
     font-weight: 599!important;
-    font-family:Algeria,sans-serif!important;
+    font-family:Algerian,serif!important;
     font-variant: small-caps;
 }
 h3{
