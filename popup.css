@@ -93,7 +93,16 @@
     text-decoration: none;
 }
 
-@media screen and (min-width:577px) and (max-width:918px) and (orientation:landscape) {
+.modal-content.pop-up.dino-popup {
+    transform: scale(0.9) translate(-55%,-55%);
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-content.pop-up.dino-popup.show {
+    transform: scale(1) translate(-50%,-50%);
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
     .modal-content.pop-up {
         font-size: 13px;
         width: 90%;
@@ -120,12 +129,12 @@
         font-size: 15px!important;
     }
 
-    .modal-content.pop-up.sideMenu {
+    #sideMenu {
         width:50%;
         transform: translate(0%,-50%);
     }
 
-    .modal-content.pop-up.sideMenu.show {
+    #sideMenu.show {
         transform: translate(-100%,-50%);
     }
 }
