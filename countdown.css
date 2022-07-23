@@ -488,7 +488,9 @@ footer {
 
 /*Medium Devices*/
 @media screen and (max-width:768px){
-    
+    h3{
+        font-size:20px!important;
+    }
     .animate-box{
         margin-top: 600px;
     }
