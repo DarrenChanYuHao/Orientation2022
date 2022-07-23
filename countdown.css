@@ -56,7 +56,9 @@ h1, h2, h4{
     font-family:Algerian,serif!important;
     font-variant: small-caps;
 }
-
+h3{
+    font-family:Algerian,serif!important;
+}
 .animate-box{
     align-items: center;
     justify-content: center;
