@@ -351,7 +351,7 @@ footer {
     color:#383838;
 }
 .fa-instagram:hover{
-    color:#7f8eb2;
+    color:#000080;
 }
 #foot-logo{
     width: 150px;
@@ -496,11 +496,11 @@ footer {
     }
     
     #background-video {
-        height:75vh;
+        height:80vh;
     }
 
     .vid:before{
-        height:75vh;
+        height:80vh;
     }
     
     .Trailer{
@@ -537,7 +537,7 @@ footer {
     }
     
     .responsive-title{
-        width:90vw;
+        width:95vw;
         padding-top:120px;
     }
     .responsive_story{
