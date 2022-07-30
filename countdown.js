@@ -54,24 +54,24 @@ scrolltop.addEventListener("click",function(){
 
 //accordion reference 
 
-const accordiontitles=document.querySelectorAll(".accordion-item-title");
+// const accordiontitles=document.querySelectorAll(".accordion-item-title");
 
-accordiontitles.forEach(accordiontitle=>{
-    accordiontitle.addEventListener("click",event=> {
-        const activeaccordiontitle=document.querySelector(".accordion-item-title.active");
-        if (activeaccordiontitle && activeaccordiontitle!==accordiontitle){
-            activeaccordiontitle.classList.toggle("active");
-            activeaccordiontitle.nextElementSibling.style.maxHeight=0;
-        }
+// accordiontitles.forEach(accordiontitle=>{
+//     accordiontitle.addEventListener("click",event=> {
+//         const activeaccordiontitle=document.querySelector(".accordion-item-title.active");
+//         if (activeaccordiontitle && activeaccordiontitle!==accordiontitle){
+//             activeaccordiontitle.classList.toggle("active");
+//             activeaccordiontitle.nextElementSibling.style.maxHeight=0;
+//         }
 
-        accordiontitle.classList.toggle("active")
-        const accordionanswer=accordiontitle.nextElementSibling;
-        //if title is selected, display the answer
-        if (accordiontitle.classList.contains("active")){
-            accordionanswer.style.maxHeight=accordionanswer.scrollHeight+"px";
-        }
-        else{
-            accordionanswer.style.maxHeight=0;
-        }
-    });
-});
+//         accordiontitle.classList.toggle("active")
+//         const accordionanswer=accordiontitle.nextElementSibling;
+//         //if title is selected, display the answer
+//         if (accordiontitle.classList.contains("active")){
+//             accordionanswer.style.maxHeight=accordionanswer.scrollHeight+"px";
+//         }
+//         else{
+//             accordionanswer.style.maxHeight=0;
+//         }
+//     });
+// });

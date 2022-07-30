@@ -2,12 +2,95 @@
     font-family:'Algerian';
     src:url(assets/Algerian.ttf);
 }
+
 html, body{
     height:auto;
     width:100%;
     scroll-behavior: smooth;
     overflow-x:hidden;
+    position:absolute; /*added in this part*/
 }
+/* dino part floating animation */
+/* .area{ 
+    width: 100%;
+    background-color: #d9d9d9;
+    background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);} */
+
+.dinopart{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.dinopart li{
+    position: absolute;
+    display: block;
+    animation: float 50s linear infinite;
+    bottom: -120px;
+}
+
+.dinopart li:nth-child(1){
+    left: 25%;
+    animation-delay: 0s;
+    animation-duration: 40s;
+}
+
+
+.dinopart li:nth-child(2){
+    left: 10%;
+    animation-delay: 2s;
+    animation-duration: 40s;
+}
+
+.dinopart li:nth-child(3){
+    left: 85%;
+    animation-delay: 5s;
+    animation-duration: 40s;
+}
+
+.dinopart li:nth-child(4){
+    left: 65%;
+    animation-delay: 15s;
+    animation-duration: 40s;
+}
+
+.dinopart li:nth-child(5){
+    left: 18%;
+    animation-delay: 25s;
+    animation-duration: 40s;
+}
+
+.dinopart li:nth-child(6){
+    left: 35%;
+    animation-delay: 8s;
+    animation-duration: 40s;
+}
+
+.dinopart li:nth-child(7){
+    left: 90%;
+    animation-delay: 18s;
+    animation-duration: 40s;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(-300px) rotate(0deg);
+        opacity: 1;
+        bottom:-100px
+    }
+    50%{
+        transform: translateY(-2000px) rotate(180deg);
+        opacity: 0.8;
+    }
+    100%{
+        transform: translateY(-2900px) rotate(360deg);
+        opacity: 0;
+    }
+}
+/* dino part animation ends here */
 
 /*blank space in between section increase height so there is space in between sections */
 #story-section, #video-section, #houses-section, #details-section, #sponsors-section{
@@ -21,14 +104,13 @@ html, body{
     padding-top:10px;
 }
 
- /*countdown section*/
+/*countdown section*/
 .countdown-section{
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
     padding-top:150px;
-    
 }
 
 .countdown-content{
@@ -95,7 +177,7 @@ h3{
 .animate-box span:nth-child(3){
     animation-delay:.6s;
 }
-@keyframes animate {
+@keyframes animate{
     0%{
         opacity: 1;
     }
@@ -559,6 +641,21 @@ footer {
     #footer-top{
         padding: 10px 100px;
         font-size: 16px;
+    }
+    @keyframes float {
+        0%{
+            transform: translateY(-350px) rotate(0deg);
+            opacity: 1;
+            bottom:-100px
+        }
+        50%{
+            transform: translateY(-2400px) rotate(180deg);
+            opacity: 0.8;
+        }
+        100%{
+            transform: translateY(-3400px) rotate(360deg);
+            opacity: 0;
+        }
     }
     nav ul#menu {display: none;}
     nav img#hamburg-menu {display: inline-block;}
