@@ -33,7 +33,7 @@ html, body{
 }
 
 .dinopart li:nth-child(1){
-    left: 25%;
+    left: 45%;
     animation-delay: 0s;
     animation-duration: 40s;
 }
@@ -41,13 +41,13 @@ html, body{
 
 .dinopart li:nth-child(2){
     left: 10%;
-    animation-delay: 2s;
+    animation-delay: 3s;
     animation-duration: 40s;
 }
 
 .dinopart li:nth-child(3){
     left: 85%;
-    animation-delay: 5s;
+    animation-delay: 6s;
     animation-duration: 40s;
 }
 
