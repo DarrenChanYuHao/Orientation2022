@@ -731,6 +731,12 @@ footer {
             opacity: 0;
         }
     }
+    .details-section:after {
+        width: 165px;
+        height: 390px;
+        top: -200px;
+        left: 40px;
+    }
     .houses-section:after {
         width: 249px;
         height: 529px;
