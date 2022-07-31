@@ -255,6 +255,7 @@ h3{
     height: 758px;
     position: absolute;
     top: -415px;
+    left: 30vw;
     transform: rotate(-15deg);
     z-index:-1;
     right:5px;
