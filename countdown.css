@@ -44,13 +44,13 @@ html, body{
 
 .dinopart li:nth-child(2){
     left: 10%;
-    animation-delay: 3s;
+    animation-delay: 10s;
     animation-duration: 40s;
 }
 
 .dinopart li:nth-child(3){
     left: 85%;
-    animation-delay: 6s;
+    animation-delay: 5s;
     animation-duration: 40s;
 }
 
@@ -256,7 +256,7 @@ h3{
 
 .details-section:after {
     content: "";
-    background: url("dino pieces/cit/2022 Cit logo shell fragment 3.png") no-repeat 0 0/100%;
+    background: url("dino pieces/cit/2022 cit logo shell fragment 3.png") no-repeat 0 0/100%;
     opacity:0.4;
     width: 359px;
     height:700px;
@@ -287,7 +287,7 @@ h3{
 
 .houses-section:after {
     content: "";
-    background: url("dino pieces/cit/2022 Cit logo shell fragment 2.png") no-repeat 0 0/100%;
+    background: url("dino pieces/cit/2022 cit logo shell fragment 2.png") no-repeat 0 0/100%;
     opacity:0.4;
     width: 329px;
     height: 698px;
@@ -711,6 +711,12 @@ footer {
         height: 529px;
         top: -150px;
         left: 60px;
+    }
+    .video-section:after {
+        width: 249px;
+        height: 529px;
+        bottom: 10px;
+        right: 60px;
     }
     nav ul#menu {display: none;}
     nav img#hamburg-menu {display: inline-block;}
