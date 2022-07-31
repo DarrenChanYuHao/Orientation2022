@@ -745,23 +745,23 @@ footer {
     .houses-section:after {
         width: 249px;
         height: 529px;
-        top: -100px;
+        top: -125px;
         right: 60px;
         z-index:-1;
     }
     .story-section:after {
         width: 249px;
         height: 529px;
-        top: -100px;
-        left: 40px;
+        top: -130px;
+        left: 30px;
         z-index:-1;
     }
     .video-section:after {
         width: 249px;
         height: 529px;
-        top: -265px;
+        top: -290px;
         z-index:-1;
-        right:5px;
+        right:-80px;
     }
     nav ul#menu {display: none;}
     nav img#hamburg-menu {display: inline-block;}
