@@ -230,8 +230,7 @@ h3{
     width: 400px;
     height: 758px;
     position: absolute;
-    bottom: -60px;
-    right: 60px;
+    top: -415px;
     transform: rotate(-15deg);
     z-index:-1;
 }
