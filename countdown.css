@@ -37,7 +37,7 @@ html, body{
 
 .dinopart li:nth-child(1){
     left: 45%;
-    animation-delay: 0s;
+    animation-delay: 100s;
     animation-duration: 40s;
 }
 
@@ -62,8 +62,32 @@ html, body{
 
 .dinopart li:nth-child(5){
     left: 18%;
+    animation-delay: 0s;
+    animation-duration: 40s;
+}
+
+.dinopart li:nth-child(6){
+    left: 10%;
+    animation-delay: 30s;
+    animation-duration: 35s;
+}
+
+.dinopart li:nth-child(7){
+    left: 85%;
     animation-delay: 25s;
     animation-duration: 40s;
+}
+
+.dinopart li:nth-child(8){
+    left: 65%;
+    animation-delay: 35s;
+    animation-duration: 45s;
+}
+
+.dinopart li:nth-child(9){
+    left: 18%;
+    animation-delay: 20s;
+    animation-duration: 35s;
 }
 
 @keyframes float {
