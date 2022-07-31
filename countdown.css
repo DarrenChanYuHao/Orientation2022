@@ -257,6 +257,7 @@ h3{
     top: -415px;
     transform: rotate(-15deg);
     z-index:-1;
+    right:5px;
 }
 
 .story-section{
@@ -750,6 +751,7 @@ footer {
         height: 529px;
         top: -265px;
         z-index:-1;
+        right:5px;
     }
     nav ul#menu {display: none;}
     nav img#hamburg-menu {display: inline-block;}
