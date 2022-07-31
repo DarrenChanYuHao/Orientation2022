@@ -42,29 +42,29 @@ hamburgMenu.onclick = function() {
   setTimeout(() => {sideMenu.classList.add('show');}, 1);
 }
 
-rubBtn.onclick = function() {
-  rubPopUp.style.display = "block";
-  setTimeout(() => {rubPopUp.style.opacity = '1';}, 1);
-  setTimeout(() => {rubWindow.classList.add('show');}, 1);
-}
+// rubBtn.onclick = function() {
+//   rubPopUp.style.display = "block";
+//   setTimeout(() => {rubPopUp.style.opacity = '1';}, 1);
+//   setTimeout(() => {rubWindow.classList.add('show');}, 1);
+// }
 
-jadBtn.onclick = function() {
-  jadPopUp.style.display = "block";
-  setTimeout(() => {jadPopUp.style.opacity = '1';}, 1); 
-  setTimeout(() => {jadWindow.classList.add('show');}, 1); 
-}
+// jadBtn.onclick = function() {
+//   jadPopUp.style.display = "block";
+//   setTimeout(() => {jadPopUp.style.opacity = '1';}, 1); 
+//   setTimeout(() => {jadWindow.classList.add('show');}, 1); 
+// }
 
-citBtn.onclick = function() {
-  citPopUp.style.display = "block";
-  setTimeout(() => {citPopUp.style.opacity = '1';}, 1);
-  setTimeout(() => {citWindow.classList.add('show');}, 1);
-}
+// citBtn.onclick = function() {
+//   citPopUp.style.display = "block";
+//   setTimeout(() => {citPopUp.style.opacity = '1';}, 1);
+//   setTimeout(() => {citWindow.classList.add('show');}, 1);
+// }
 
-aquaBtn.onclick = function() {
-  aquaPopUp.style.display = "block";
-  setTimeout(() => {aquaPopUp.style.opacity = '1';}, 1);
-  setTimeout(() => {aquaWindow.classList.add('show');}, 1);
-}
+// aquaBtn.onclick = function() {
+//   aquaPopUp.style.display = "block";
+//   setTimeout(() => {aquaPopUp.style.opacity = '1';}, 1);
+//   setTimeout(() => {aquaWindow.classList.add('show');}, 1);
+// }
 
 onyxBtn.onclick = function() {
   onyxPopUp.style.display = "block";
