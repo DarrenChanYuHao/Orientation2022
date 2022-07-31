@@ -295,6 +295,7 @@ h3{
     top: -100px;
     right: 50px;
     transform: rotate(45deg);
+    z-index:-1;
 }
 
 .sponsors-section {
@@ -705,18 +706,21 @@ footer {
         height: 529px;
         top: -100px;
         right: 60px;
+        z-index:-1;
     }
     .story-section:after {
         width: 249px;
         height: 529px;
         top: -150px;
         left: 60px;
+        z-index:-1;
     }
     .video-section:after {
         width: 249px;
         height: 529px;
         bottom: 10px;
         right: 60px;
+        z-index:-1;
     }
     nav ul#menu {display: none;}
     nav img#hamburg-menu {display: inline-block;}
