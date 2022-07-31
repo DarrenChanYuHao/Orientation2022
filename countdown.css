@@ -70,7 +70,7 @@ html, body{
     0%{
         transform: translateY(-300px) rotate(0deg);
         opacity: 0.7;
-        bottom:-100px;
+        bottom:-10px;
     }
     50%{
         transform: translateY(-2000px) rotate(180deg);
@@ -261,7 +261,7 @@ h3{
     width: 359px;
     height:700px;
     position: absolute;
-    bottom: 45px;
+    top: -320px;
     left: 40px;
     transform: rotate(-150deg);
     z-index:-1;
@@ -442,6 +442,13 @@ nav {
 
 #houses li ul {
     padding-left:0px;
+}
+.accordion-item, .accordion-button.collapsed {
+    background-color: rgba(0,0,0,0)!important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgba(231,241,255,0.75)!important;
 }
 
 .accordion-button:focus {
