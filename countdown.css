@@ -9,12 +9,15 @@ html, body{
     scroll-behavior: smooth;
     overflow-x:hidden;
     position:absolute; /*added in this part*/
+    background-color: #F2F2F2!important;
+    z-index: -1;
 }
 /* dino part floating animation */
-/* .area{ 
+.area{ 
     width: 100%;
-    background-color: #d9d9d9;
-    background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);} */
+    height:100%;
+    overflow:hidden;
+}
 
 .dinopart{
     position: absolute;
@@ -63,27 +66,15 @@ html, body{
     animation-duration: 40s;
 }
 
-.dinopart li:nth-child(6){
-    left: 35%;
-    animation-delay: 8s;
-    animation-duration: 40s;
-}
-
-.dinopart li:nth-child(7){
-    left: 90%;
-    animation-delay: 18s;
-    animation-duration: 40s;
-}
-
 @keyframes float {
     0%{
         transform: translateY(-300px) rotate(0deg);
-        opacity: 1;
-        bottom:-100px
+        opacity: 0.7;
+        bottom:-100px;
     }
     50%{
         transform: translateY(-2000px) rotate(180deg);
-        opacity: 0.8;
+        opacity: 0.5;
     }
     100%{
         transform: translateY(-2900px) rotate(360deg);
@@ -102,6 +93,35 @@ html, body{
     width:55vw;
     padding-bottom:20px;
     padding-top:10px;
+}
+
+/* vid part in countdown section */
+#background-video {
+    width: 100vw;
+    height:95vh;
+    object-fit: cover;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    opacity:0.5;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+}
+.vid:before{
+    content:"";
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    width: 100vw;
+    height:95vh;
+    max-height: 300vh;
+    z-index:-1;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    object-fit: cover;
+    position: absolute;
 }
 
 /*countdown section*/
@@ -203,9 +223,48 @@ h3{
     /* height:30vh; original vid height */
 }
 
+.video-section:after {
+    content: "";
+    background: url("dino pieces/cit/2022 cit logo shell fragment 1.png") no-repeat 0 0/100%;
+    opacity:0.4;
+    width: 400px;
+    height: 758px;
+    position: absolute;
+    bottom: -60px;
+    right: 60px;
+    transform: rotate(-15deg);
+    z-index:-1;
+}
+
 .story-section{
     height: 55vh;
     text-align:justify;
+}
+
+.story-section:after {
+    content: "";
+    background: url("dino pieces/cit/2022 cit logo shell fragment 2.png") no-repeat 0 0/100%;
+    opacity:0.4;
+    width: 329px;
+    height: 698px;
+    position: absolute;
+    bottom: -60px;
+    left: 60px;
+    transform: rotate(-15deg);
+    z-index:-1;
+}
+
+.details-section:after {
+    content: "";
+    background: url("dino pieces/cit/2022 Cit logo shell fragment 3.png") no-repeat 0 0/100%;
+    opacity:0.4;
+    width: 359px;
+    height:700px;
+    position: absolute;
+    bottom: 45px;
+    left: 40px;
+    transform: rotate(-150deg);
+    z-index:-1;
 }
 
 .pop_desc{
@@ -213,34 +272,6 @@ h3{
     text-align:justify;
 }
 
-#background-video {
-    width: 100vw;
-    height:95vh;
-    object-fit: cover;
-    position: absolute;
-    overflow: hidden;
-    z-index: -1;
-    opacity:0.5;
-    top:0;
-    right:0;
-    left:0;
-    bottom:0;
-}
-.vid:before{
-    content:"";
-    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-    width: 100vw;
-    height:95vh;
-    max-height: 300vh;
-    z-index:-1;
-    top:0;
-    right:0;
-    left:0;
-    bottom:0;
-    object-fit: cover;
-    position: absolute;
- 
-}
 #onyx {
     display: inline-block;
 }
@@ -253,6 +284,18 @@ h3{
     text-align: center;
     height: auto;
 } 
+
+.houses-section:after {
+    content: "";
+    background: url("dino pieces/cit/2022 Cit logo shell fragment 2.png") no-repeat 0 0/100%;
+    opacity:0.4;
+    width: 329px;
+    height: 698px;
+    position: absolute;
+    top: -100px;
+    right: 50px;
+    transform: rotate(45deg);
+}
 
 .sponsors-section {
     justify-content: center;
@@ -656,6 +699,18 @@ footer {
             transform: translateY(-3400px) rotate(360deg);
             opacity: 0;
         }
+    }
+    .houses-section:after {
+        width: 249px;
+        height: 529px;
+        top: -100px;
+        right: 60px;
+    }
+    .story-section:after {
+        width: 249px;
+        height: 529px;
+        top: -150px;
+        left: 60px;
     }
     nav ul#menu {display: none;}
     nav img#hamburg-menu {display: inline-block;}
