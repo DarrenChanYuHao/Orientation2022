@@ -255,7 +255,7 @@ h3{
     height: 758px;
     position: absolute;
     top: -415px;
-    left: 30vw;
+    right: 30vw;
     transform: rotate(-15deg);
     z-index:-1;
     right:5px;
@@ -752,8 +752,8 @@ footer {
     .story-section:after {
         width: 249px;
         height: 529px;
-        top: -150px;
-        left: 60px;
+        top: -100px;
+        left: 40px;
         z-index:-1;
     }
     .video-section:after {
