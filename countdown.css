@@ -9,7 +9,7 @@ html, body{
     scroll-behavior: smooth;
     overflow-x:hidden;
     position:absolute; /*added in this part*/
-    background-color: #F2F2F2!important;
+    background-color: #F5F5F5!important;
     z-index: -1;
 }
 /* dino part floating animation */
@@ -724,8 +724,7 @@ footer {
     .video-section:after {
         width: 249px;
         height: 529px;
-        bottom: 10px;
-        right: 60px;
+        top: -265px;
         z-index:-1;
     }
     nav ul#menu {display: none;}
