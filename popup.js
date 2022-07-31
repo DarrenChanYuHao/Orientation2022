@@ -14,6 +14,9 @@ var citWindow = document.getElementById('citWindow');
 var aquaPopUp = document.getElementById("aquaPopUp");
 var aquaWindow = document.getElementById('aquaWindow');
 
+var onyxPopUp = document.getElementById("onyxPopUp");
+var onyxWindow = document.getElementById('onyxWindow');
+
 // Get the button that opens the modal
 var hamburgMenu = document.getElementById("hamburg-menu");
 
@@ -21,6 +24,7 @@ var rubBtn = document.getElementById("rubBtn");
 var jadBtn = document.getElementById("jadBtn");
 var citBtn = document.getElementById("citBtn");
 var aquaBtn = document.getElementById("aquaBtn");
+var onyxBtn = document.getElementById("onyx-clickable");
 
 // Get the <span> element that closes the modal
 var menuClose = document.getElementById('menuClose');
@@ -29,6 +33,7 @@ var rubClose = document.getElementById('rubClose');
 var jadClose = document.getElementById('jadClose');
 var citClose = document.getElementById('citClose');
 var aquaClose = document.getElementById('aquaClose');
+var onyxClose = document.getElementById('onyxClose');
 
 // When the user clicks on the button, open the modal
 hamburgMenu.onclick = function() {
@@ -61,6 +66,12 @@ aquaBtn.onclick = function() {
   setTimeout(() => {aquaWindow.classList.add('show');}, 1);
 }
 
+onyxBtn.onclick = function() {
+  onyxPopUp.style.display = "block";
+  setTimeout(() => {onyxPopUp.style.opacity = '1';}, 1);
+  setTimeout(() => {onyxWindow.classList.add('show');}, 1);
+}
+
 // When the user clicks on <span> (x), close the modal
 menuClose.onclick = function() {
   sideMenu.classList.remove('show');
@@ -89,6 +100,11 @@ aquaClose.onclick = function() {
   setTimeout(() => {aquaPopUp.style.opacity = '0';}, 1);
   setTimeout(() => {aquaPopUp.style.display = "none";}, 300);
 }
+onyxClose.onclick = function() {
+  onyxWindow.classList.remove('show');
+  setTimeout(() => {onyxPopUp.style.opacity = '0';}, 1);
+  setTimeout(() => {onyxPopUp.style.display = "none";}, 300);
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
@@ -108,6 +124,10 @@ window.onclick = function(event) {
     aquaWindow.classList.remove('show');
     setTimeout(() => {aquaPopUp.style.opacity = '0';}, 1);
     setTimeout(() => {aquaPopUp.style.display = "none";}, 300);
+  } else if (event.target == onyxPopUp) {
+    onyxWindow.classList.remove('show');
+    setTimeout(() => {onyxPopUp.style.opacity = '0';}, 1);
+    setTimeout(() => {onyxPopUp.style.display = "none";}, 300);
   } else if (event.target == side_Menu) {
     sideMenu.classList.remove('show');
     setTimeout(() => {side_Menu.style.opacity = '0';}, 1);
