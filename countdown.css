@@ -782,6 +782,13 @@ footer {
         width:85vw;
         padding-top:80px;
     }
+    .video-section:after {
+        top: -245px;
+    }
+    .story-section:after {   
+        top: -120px;
+        left: 40px;
+    }
 }
 
 /*large devices*/
