@@ -849,6 +849,12 @@ footer {
     .animate-box{
          padding-top: 670px;
      }
+    .details-section:after {
+        width: 165px;
+        height: 390px;
+        top: -200px;
+        left: 40px;
+    }
 }
 
 @media screen and (min-width:1440px){
