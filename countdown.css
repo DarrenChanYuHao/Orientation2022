@@ -857,6 +857,15 @@ footer {
     }
 }
 
+@media screen and (min-width:769px) and (max-width:1300px) {
+    .details-section:after {
+        width: 275px;
+        height: 500px;
+        top: -200px;
+        left: 40px;
+    }
+}
+
 @media screen and (min-width:1440px){
     .animate-box{
         padding-top:620px;
