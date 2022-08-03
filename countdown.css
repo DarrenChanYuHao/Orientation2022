@@ -222,7 +222,7 @@ h3{
     display: flex;
     position: absolute; 
     transform: translate3d(0px, 0px, 0px);
-    padding-top:580px;
+    margin-top:40px;
 }
 
 .animate-box span{
@@ -576,9 +576,6 @@ footer {
         display:block;
         width: 20px; 
         height: 20px;
-        border:1.5px solid #383838;
-        transform:rotate(45deg);
-        animation: animate 3s infinite;
     }
     .Trailer{
         padding-top:80px;
@@ -617,7 +614,9 @@ footer {
         text-align: center;
         height: auto;
     } 
-
+    #gMap{
+        padding: 7vw;
+    }
     .countdown-section{
         height:auto;
         padding-top: 70px;
@@ -685,7 +684,9 @@ footer {
     .vid:before{
         height:80vh;
     }
-    
+    .animate-box{
+        margin-top:600px;
+    }
     .Trailer{
         margin-top:50px;
     }
@@ -713,6 +714,9 @@ footer {
     }
     .details-section{
         height:auto;
+    }
+    #gMap{
+        padding: 7vw;
     }
     .houses-section {
         text-align: center;
