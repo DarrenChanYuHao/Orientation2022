@@ -226,7 +226,7 @@ h3{
     display: flex;
     position: absolute; 
     transform: translate3d(0px, 0px, 0px);
-    margin-top:40px;
+    margin-top:600px;
 }
 
 .animate-box span{
@@ -571,10 +571,6 @@ footer {
         font-size:95%;
     }
     
-    .animate-box{
-        margin-top: 600px;
-    }
-    
     .animate-box span{
         display:block;
         width: 20px; 
@@ -658,18 +654,9 @@ footer {
     .responsive-title {
         width:80vw;
     }
-    /* #background-video {
-        height:500px;
-    }
 
-    .vid:before{
-        height:500px;
-    } */
     .maps{
         width:80%;
-    }
-    .animate-box{
-        margin-top: 500px;
     }
 }
 
@@ -805,15 +792,8 @@ footer {
 }
 
 @media screen and (min-width:577px) and (max-width:768px) and (orientation:landscape){
-    /* #background-video {
-        height:600px;
-    }
-
-    .vid:before{
-        height:600px;
-    } */
     .animate-box{
-        margin-top: 600px;
+        margin-top: 650px;
     }
     .responsive-title{
         width:85vw;
@@ -837,7 +817,7 @@ footer {
      }
      
      .animate-box{
-         padding-top: 720px;
+         padding-top: 20px;
      }
      
      .Trailer{
@@ -866,9 +846,6 @@ footer {
         width:80vw;
         padding-top:30px;
     }
-    /* #background-video {
-        height:58vh;
-    }
 
     .vid:before{
         height:58vh;
@@ -879,16 +856,6 @@ footer {
 }
 
 @media screen and (min-width:769px) and (max-width:1200px) and (orientation:landscape){
-    /* #background-video {
-        height:75vh;
-    }
-
-    .vid:before{
-        height:75vh;
-    } */
-    .animate-box{
-         padding-top: 670px;
-     }
     .details-section:after {
         width: 165px;
         height: 390px;
@@ -908,16 +875,8 @@ footer {
 
 @media screen and (min-width:1440px){
     .animate-box{
-        padding-top:620px;
+        padding-top:20px;
     }
-    /* #background-video {
-        height:75vh;
-    }
-
-    .vid:before{
-        height:75vh;
-    } */
-    
 }
 #hamburg-menu {
     display: none;
