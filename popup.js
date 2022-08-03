@@ -42,29 +42,29 @@ hamburgMenu.onclick = function() {
   setTimeout(() => {sideMenu.classList.add('show');}, 1);
 }
 
-// rubBtn.onclick = function() {
-//   rubPopUp.style.display = "block";
-//   setTimeout(() => {rubPopUp.style.opacity = '1';}, 1);
-//   setTimeout(() => {rubWindow.classList.add('show');}, 1);
-// }
+rubBtn.onclick = function() {
+  rubPopUp.style.display = "block";
+  setTimeout(() => {rubPopUp.style.opacity = '1';}, 1);
+  setTimeout(() => {rubWindow.classList.add('show');}, 1);
+}
 
-// jadBtn.onclick = function() {
-//   jadPopUp.style.display = "block";
-//   setTimeout(() => {jadPopUp.style.opacity = '1';}, 1); 
-//   setTimeout(() => {jadWindow.classList.add('show');}, 1); 
-// }
+jadBtn.onclick = function() {
+  jadPopUp.style.display = "block";
+  setTimeout(() => {jadPopUp.style.opacity = '1';}, 1); 
+  setTimeout(() => {jadWindow.classList.add('show');}, 1); 
+}
 
-// citBtn.onclick = function() {
-//   citPopUp.style.display = "block";
-//   setTimeout(() => {citPopUp.style.opacity = '1';}, 1);
-//   setTimeout(() => {citWindow.classList.add('show');}, 1);
-// }
+citBtn.onclick = function() {
+  citPopUp.style.display = "block";
+  setTimeout(() => {citPopUp.style.opacity = '1';}, 1);
+  setTimeout(() => {citWindow.classList.add('show');}, 1);
+}
 
-// aquaBtn.onclick = function() {
-//   aquaPopUp.style.display = "block";
-//   setTimeout(() => {aquaPopUp.style.opacity = '1';}, 1);
-//   setTimeout(() => {aquaWindow.classList.add('show');}, 1);
-// }
+aquaBtn.onclick = function() {
+  aquaPopUp.style.display = "block";
+  setTimeout(() => {aquaPopUp.style.opacity = '1';}, 1);
+  setTimeout(() => {aquaWindow.classList.add('show');}, 1);
+}
 
 onyxBtn.onclick = function() {
   onyxPopUp.style.display = "block";
@@ -171,13 +171,70 @@ closelist.forEach(closer => {
   })
 }); 
 
-var accordlist = document.querySelectorAll('.accordion-item');
-console.log(accordlist)
-accordlist.forEach(accordion => {
-  accordion.addEventListener('keypress', function(event) {
-    if (event.key === 'Enter') {
-      event.preventDefault();
-      accordion.childNodes[1].childNodes[1].click();
-    }
-  })
-});
+const rubReveal = setInterval(function() {
+  var rubTbr = document.getElementById('tbr1');
+  var rublist = document.querySelectorAll('.rub');
+
+  const rubRevealDatetime = new Date('16 Aug 2022 00:00:00').getTime();
+  const currentDatetime  = new Date().getTime();
+  const datetimeDiff = currentDatetime - rubRevealDatetime;
+
+  if (datetimeDiff > 0) {
+      rubTbr.style.display = 'none';
+      rubBtn.style.display = 'inline-block';
+      rublist.forEach(elem => {
+        elem.style.display = 'block';
+      })
+  }
+}, 500);
+
+const jadReveal = setInterval(function() {
+  var jadTbr = document.getElementById('tbr2');
+  var jadlist = document.querySelectorAll('.jad');
+
+  const jadRevealDatetime = new Date('17 Aug 2022 00:00:00').getTime();
+  const currentDatetime  = new Date().getTime();
+  const datetimeDiff = currentDatetime - jadRevealDatetime;
+
+  if (datetimeDiff > 0) {
+      jadTbr.style.display = 'none';
+      jadBtn.style.display = 'inline-block';
+      jadlist.forEach(elem => {
+        elem.style.display = 'block';
+      })
+  }
+}, 500);
+
+const citReveal = setInterval(function() {
+  var citTbr = document.getElementById('tbr3');
+  var citlist = document.querySelectorAll('.cit');
+
+  const citRevealDatetime = new Date('18 Aug 2022 00:00:00').getTime();
+  const currentDatetime  = new Date().getTime();
+  const datetimeDiff = currentDatetime - citRevealDatetime;
+
+  if (datetimeDiff > 0) {
+      citTbr.style.display = 'none';
+      citBtn.style.display = 'inline-block';
+      citlist.forEach(elem => {
+        elem.style.display = 'block';
+      })
+  }
+}, 500);
+
+const aquaReveal = setInterval(function() {
+  var aquaTbr = document.getElementById('tbr4');
+  var aqualist = document.querySelectorAll('.aqua');
+
+  const aquaRevealDatetime = new Date('19 Aug 2022 00:00:00').getTime();
+  const currentDatetime  = new Date().getTime();
+  const datetimeDiff = currentDatetime - aquaRevealDatetime;
+
+  if (datetimeDiff > 0) {
+      aquaTbr.style.display = 'none';
+      aquaBtn.style.display = 'inline-block';
+      aqualist.forEach(elem => {
+        elem.style.display = 'block';
+      })
+  }
+}, 500);

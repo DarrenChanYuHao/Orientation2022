@@ -90,3 +90,14 @@ const onyxReveal = setInterval(function() {
         onyxClick.style.display = 'inline-block';
     }
 }, 1000);
+
+var accordlist = document.querySelectorAll('.accordion-item');
+console.log(accordlist)
+accordlist.forEach(accordion => {
+  accordion.addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      accordion.childNodes[1].childNodes[1].click();
+    }
+  })
+});

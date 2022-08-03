@@ -45,9 +45,8 @@
     font-size: 20px;
 }
 
-.btn {
-    border: 0;
-    background-color: rgba(0,0,0,0);
+#rubBtn, #jadBtn, #citBtn, #aquaBtn {
+    display: none;
 }
 
 .btn:focus {
