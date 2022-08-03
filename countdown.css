@@ -150,7 +150,7 @@ html, body{
 /* vid part in countdown section */
 #background-video {
     width: 100vw;
-    height:95vh;
+    height:600px;
     object-fit: cover;
     position: absolute;
     overflow: hidden;
@@ -165,7 +165,7 @@ html, body{
     content:"";
     background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
     width: 100vw;
-    height:95vh;
+    height:600px;
     max-height: 300vh;
     z-index:-1;
     top:0;
@@ -645,11 +645,11 @@ footer {
         padding:20px;
     }
     #background-video {
-        height:110vh;
+        height:500px;
     }
 
     .vid:before{
-        height:110vh;
+        height:500px;
     }
 
 }
@@ -657,15 +657,14 @@ footer {
 @media screen and (max-width:576px) and (orientation:landscape){
     .responsive-title {
         width:80vw;
-        /* padding-top:600px; */
     }
-    #background-video {
-        height:100vh;
+    /* #background-video {
+        height:500px;
     }
 
     .vid:before{
-        height:100vh;
-    }
+        height:500px;
+    } */
     .maps{
         width:80%;
     }
@@ -685,7 +684,7 @@ footer {
         }
         50%{
             transform: translateY(-2400px) rotate(180deg);
-            opacity: 0.8;
+            opacity: 0.5;
         }
         100%{
             transform: translateY(-3400px) rotate(360deg);
@@ -773,11 +772,11 @@ footer {
 @media screen and (min-width:577px) and (max-width:768px){
     
     #background-video {
-        height:80vh;
+        height:640px;
     }
 
     .vid:before{
-        height:80vh;
+        height:640px;
     }
     .animate-box{
         margin-top:750px;
@@ -792,7 +791,7 @@ footer {
 
     .responsive-title{
         width:95vw;
-        padding-top:120px;
+        padding-top:60px;
     }
     .responsive_story{
         margin-top: 30px;
@@ -806,13 +805,13 @@ footer {
 }
 
 @media screen and (min-width:577px) and (max-width:768px) and (orientation:landscape){
-    #background-video {
-        height:190vh;
+    /* #background-video {
+        height:600px;
     }
 
     .vid:before{
-        height:190vh;
-    }
+        height:600px;
+    } */
     .animate-box{
         margin-top: 600px;
     }
@@ -867,26 +866,26 @@ footer {
         width:80vw;
         padding-top:30px;
     }
-    #background-video {
+    /* #background-video {
         height:58vh;
     }
 
     .vid:before{
         height:58vh;
-    }
+    } */
     #Jewel {
         top: calc(100% - 10px);
     }
 }
 
 @media screen and (min-width:769px) and (max-width:1200px) and (orientation:landscape){
-    #background-video {
+    /* #background-video {
         height:75vh;
     }
 
     .vid:before{
         height:75vh;
-    }
+    } */
     .animate-box{
          padding-top: 670px;
      }
@@ -911,13 +910,13 @@ footer {
     .animate-box{
         padding-top:620px;
     }
-    #background-video {
+    /* #background-video {
         height:75vh;
     }
 
     .vid:before{
         height:75vh;
-    }
+    } */
     
 }
 #hamburg-menu {
