@@ -712,8 +712,8 @@ footer {
         text-align: justify;
     }
     #prg {
-        max-width: 95vw;
-        padding-left: 5vw;
+        max-width: 90vw;
+        padding-left: 10vw;
     }
     .details-section{
         height:auto;
