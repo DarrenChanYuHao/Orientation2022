@@ -238,3 +238,15 @@ const aquaReveal = setInterval(function() {
       })
   }
 }, 500);
+
+const mystery = setInterval(function() {
+  var mysterious = document.querySelector('.mystery');
+
+  const RevealDatetime = new Date('07 Sep 2022 00:00:00').getTime();
+  const currentDatetime  = new Date().getTime();
+  const datetimeDiff = currentDatetime - RevealDatetime;
+
+  if (datetimeDiff > 0) {
+      mysterious.style.display = 'block';
+  }
+}, 500)
