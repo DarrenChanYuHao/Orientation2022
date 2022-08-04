@@ -1,11 +1,11 @@
 // countdown function
-const orientation_date='08 Sept 2022 08:00:00'; //countdown to 8 Sept 8am
+const orientation_date='08 Sept 2022 08:00:00 GMT+08:00'; //countdown to 8 Sept 8am
 
 const countdown= setInterval(function(){
     const newdate=new Date(orientation_date).getTime()
     const currentdate=new Date().getTime()
     const datediff= (newdate-currentdate)/1000 //difference between the orientation start date and current time in milliseconds
-   
+    console.log(newdate);
     //get value for individual variable
     const days=Math.trunc(datediff/(60*60*24))
     const hours=Math.trunc((datediff/(60*60)%24))
