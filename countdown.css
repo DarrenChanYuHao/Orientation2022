@@ -333,6 +333,10 @@ h3{
     display: none;
 }
 
+#onyx-clickable:hover {
+    cursor: pointer;
+}
+
 .houses-section {
     text-align: center;
     height: auto;

@@ -151,7 +151,7 @@ hamburgMenu.addEventListener('keypress', function(event) {
   }
 })
 
-var dinolist = document.querySelectorAll('.btn');
+var dinolist = document.querySelectorAll('.dinos');
 dinolist.forEach(dino => {
   dino.addEventListener('keypress', function(event) {
     if (event.key === 'Enter') {
