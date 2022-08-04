@@ -665,7 +665,7 @@ footer {
 }
 
 
-/*Medium Devices*/
+/*Small & Medium Devices*/
 @media screen and (max-width:768px) {
     @keyframes float {
         0%{
@@ -675,7 +675,7 @@ footer {
         }
         50%{
             transform: translateY(-2400px) rotate(180deg);
-            opacity: 0.5;
+            opacity: 0.8;
         }
         100%{
             transform: translateY(-3400px) rotate(360deg);
@@ -760,6 +760,7 @@ footer {
     }
 }
 
+/*Medium Devices*/
 @media screen and (min-width:577px) and (max-width:768px){
     
     #background-video {
