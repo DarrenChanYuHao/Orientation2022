@@ -5,7 +5,7 @@ const countdown= setInterval(function(){
     const newdate=new Date(orientation_date).getTime()
     const currentdate=new Date().getTime()
     const datediff= (newdate-currentdate)/1000 //difference between the orientation start date and current time in milliseconds
-    console.log(newdate);
+    
     //get value for individual variable
     const days=Math.trunc(datediff/(60*60*24))
     const hours=Math.trunc((datediff/(60*60)%24))
