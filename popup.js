@@ -171,7 +171,7 @@ closelist.forEach(closer => {
   })
 }); 
 
-const rubReveal = setInterval(function() {
+const rubReveal = setTimeout(function() {
   var rubTbr = document.getElementById('tbr1');
   var rublist = document.querySelectorAll('.rub');
 
@@ -186,9 +186,9 @@ const rubReveal = setInterval(function() {
         elem.style.display = 'block';
       })
   }
-}, 500);
+}, 1);
 
-const jadReveal = setInterval(function() {
+const jadReveal = setTimeout(function() {
   var jadTbr = document.getElementById('tbr2');
   var jadlist = document.querySelectorAll('.jad');
 
@@ -203,9 +203,9 @@ const jadReveal = setInterval(function() {
         elem.style.display = 'block';
       })
   }
-}, 500);
+}, 1);
 
-const citReveal = setInterval(function() {
+const citReveal = setTimeout(function() {
   var citTbr = document.getElementById('tbr3');
   var citlist = document.querySelectorAll('.cit');
 
@@ -220,9 +220,9 @@ const citReveal = setInterval(function() {
         elem.style.display = 'block';
       })
   }
-}, 500);
+}, 1);
 
-const aquaReveal = setInterval(function() {
+const aquaReveal = setTimeout(function() {
   var aquaTbr = document.getElementById('tbr4');
   var aqualist = document.querySelectorAll('.aqua');
 
@@ -237,9 +237,9 @@ const aquaReveal = setInterval(function() {
         elem.style.display = 'block';
       })
   }
-}, 500);
+}, 1);
 
-const mystery = setInterval(function() {
+const mystery = setTimeout(function() {
   var mysterious = document.querySelector('.mystery');
 
   const RevealDatetime = new Date('07 Jul 2022 00:00:00').getTime();
@@ -249,7 +249,7 @@ const mystery = setInterval(function() {
   if (datetimeDiff > 0) {
       mysterious.style.display = 'block';
   }
-}, 500)
+}, 1)
 
 /* countdown function for onyx reveal */
 
