@@ -75,22 +75,6 @@ scrolltop.addEventListener("click",function(){
 //     });
 // });
 
-/* countdown function for onyx reveal */
-
-const onyxReveal = setInterval(function() {
-    var onyxNonClick = document.getElementById('onyx');
-    var onyxClick = document.getElementById('onyx-clickable');
-
-    const onyxRevealDatetime = new Date('09 Sept 2022 08:00:00').getTime();
-    const currentDatetime  = new Date().getTime();
-    const datetimeDiff = currentDatetime - onyxRevealDatetime;
-    
-    if (datetimeDiff > 0) {
-        onyxNonClick.style.display = 'none';
-        onyxClick.style.display = 'inline-block';
-    }
-}, 1000);
-
 var accordlist = document.querySelectorAll('.accordion-item');
 accordlist.forEach(accordion => {
   accordion.addEventListener('keypress', function(event) {

@@ -175,7 +175,7 @@ const rubReveal = setInterval(function() {
   var rubTbr = document.getElementById('tbr1');
   var rublist = document.querySelectorAll('.rub');
 
-  const rubRevealDatetime = new Date('16 Aug 2022 00:00:00').getTime();
+  const rubRevealDatetime = new Date('16 Jul 2022 00:00:00').getTime();
   const currentDatetime  = new Date().getTime();
   const datetimeDiff = currentDatetime - rubRevealDatetime;
 
@@ -192,7 +192,7 @@ const jadReveal = setInterval(function() {
   var jadTbr = document.getElementById('tbr2');
   var jadlist = document.querySelectorAll('.jad');
 
-  const jadRevealDatetime = new Date('17 Aug 2022 00:00:00').getTime();
+  const jadRevealDatetime = new Date('17 Jul 2022 00:00:00').getTime();
   const currentDatetime  = new Date().getTime();
   const datetimeDiff = currentDatetime - jadRevealDatetime;
 
@@ -209,7 +209,7 @@ const citReveal = setInterval(function() {
   var citTbr = document.getElementById('tbr3');
   var citlist = document.querySelectorAll('.cit');
 
-  const citRevealDatetime = new Date('18 Aug 2022 00:00:00').getTime();
+  const citRevealDatetime = new Date('18 Jul 2022 00:00:00').getTime();
   const currentDatetime  = new Date().getTime();
   const datetimeDiff = currentDatetime - citRevealDatetime;
 
@@ -226,7 +226,7 @@ const aquaReveal = setInterval(function() {
   var aquaTbr = document.getElementById('tbr4');
   var aqualist = document.querySelectorAll('.aqua');
 
-  const aquaRevealDatetime = new Date('19 Aug 2022 00:00:00').getTime();
+  const aquaRevealDatetime = new Date('19 Jul 2022 00:00:00').getTime();
   const currentDatetime  = new Date().getTime();
   const datetimeDiff = currentDatetime - aquaRevealDatetime;
 
@@ -242,7 +242,7 @@ const aquaReveal = setInterval(function() {
 const mystery = setInterval(function() {
   var mysterious = document.querySelector('.mystery');
 
-  const RevealDatetime = new Date('07 Sep 2022 00:00:00').getTime();
+  const RevealDatetime = new Date('07 Jul 2022 00:00:00').getTime();
   const currentDatetime  = new Date().getTime();
   const datetimeDiff = currentDatetime - RevealDatetime;
 
@@ -250,3 +250,19 @@ const mystery = setInterval(function() {
       mysterious.style.display = 'block';
   }
 }, 500)
+
+/* countdown function for onyx reveal */
+
+const onyxReveal = setInterval(function() {
+  var onyxNonClick = document.getElementById('onyx');
+  var onyxClick = document.getElementById('onyx-clickable');
+
+  const onyxRevealDatetime = new Date('09 Jul 2022 08:00:00').getTime();
+  const currentDatetime  = new Date().getTime();
+  const datetimeDiff = currentDatetime - onyxRevealDatetime;
+  
+  if (datetimeDiff > 0) {
+      onyxNonClick.style.display = 'none';
+      onyxClick.style.display = 'inline-block';
+  }
+}, 1000);
