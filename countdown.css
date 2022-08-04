@@ -626,7 +626,7 @@ footer {
     #houses li ul {
         width: 100vw;
     }
-    .dino:not(#onyx-clickable) {
+    .dino {
         width:40vw;
     }
     .responsive-iframe{
