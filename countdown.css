@@ -41,8 +41,8 @@ html, body{
 
 .dinopart li:nth-child(1){
     left: 45%;
-    animation-delay: 106.4s;
-    animation-duration: 50s;
+    animation-delay: 36s;
+    animation-duration: 40s;
 }
 
 
@@ -55,7 +55,7 @@ html, body{
 .dinopart li:nth-child(3){
     left: 85%;
     animation-delay: 3s;
-    animation-duration: 41s;
+    animation-duration: 40s;
 }
 
 .dinopart li:nth-child(4){
@@ -73,7 +73,7 @@ html, body{
 .dinopart li:nth-child(6){
     left: 15%;
     animation-delay: 18s;
-    animation-duration: 39s;
+    animation-duration: 40s;
 }
 
 .dinopart li:nth-child(7){
@@ -91,7 +91,7 @@ html, body{
 .dinopart li:nth-child(9){
     left: 30%;
     animation-delay: 12s;
-    animation-duration: 41s;
+    animation-duration: 40s;
 }
 
 .dinopart li:nth-child(10){
@@ -109,7 +109,7 @@ html, body{
 .dinopart li:nth-child(12){
     left: 55%;
     animation-delay: 33s;
-    animation-duration: 39s;
+    animation-duration: 40s;
 }
 
 .dinopart li:nth-child(13){
