@@ -749,6 +749,7 @@ footer {
     }
     #foot-logo{
         width: calc(32px + 12vw);
+        padding-bottom: 15px;
     }
     #footer-bottom{
         flex-direction: column;
