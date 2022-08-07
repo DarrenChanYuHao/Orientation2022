@@ -1,0 +1,504 @@
+@import url('https://fonts.cdnfonts.com/css/bluu-next');
+html, body{
+    height:1000px;
+    scroll-behavior: smooth;
+}
+
+.responsive{
+    max-width: 30%;
+    height:auto;
+}
+
+.responsive-title{
+    width:60%;
+    height:60%;
+}
+
+ /*countdown section*/
+.countdown-section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top:30px;
+}
+
+.countdown-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.orientation-date{
+    display: flex;
+    flex-direction: row;
+    margin-left:30px;
+}
+
+.text{
+    margin:40px;
+    margin-top: 40px;
+    text-align:center;
+}
+
+h1, h2, h4{
+    font-weight: 600!important;
+    font-family:Bluu Next,serif!important;
+}
+
+.animate-box{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    position: absolute; 
+    transform: translate3d(0px, 0px, 0px);
+    margin-top: 55%;
+}
+
+.animate-box span{
+    display:block;
+    width: 20px; 
+    height: 20px;
+    border:1px solid #383838;
+    transform:rotate(45deg);
+    animation: animate 3s infinite;
+    
+}
+
+.animate-box span:nth-child(1){
+    animation-delay:.2s;
+}
+
+.animate-box span:nth-child(2){
+    animation-delay:.4s;
+}
+.animate-box span:nth-child(3){
+    animation-delay:.6s;
+}
+@keyframes animate {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity:0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.reporting{
+    margin-bottom:35px;
+}
+
+.video-section{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height:80vh;
+}
+
+.story-section{
+    height: 80vh;
+    text-align:justify;
+}
+
+.pop_desc{
+    padding:20px;
+    text-align:justify;
+}
+
+.houses-section {
+    text-align: center;
+    height: 80vh;
+} 
+
+.sponsors-section, .contact-section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height:25vh;
+}
+.Trailer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.responsive_story{
+    max-width: 70%;
+    height:auto;
+    margin:auto;
+    display: block;
+    margin-top: 50px;
+}
+
+.card_video span {
+    position: absolute;
+    width: var(--size);
+    height: var(--size);
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(165, 250, 0, 1));
+    filter: drop-shadow(0px 0px 10px rgba(165, 250, 0, 1));
+}
+.card_video {
+    --size: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.dino{
+   padding-top:40px;
+}
+  
+.scroll-up.show{
+   right:10px;
+
+}
+
+nav {
+    position: fixed;
+    background-color: #eeeeee;
+    padding: 20px;
+    height: 84px;
+    width: 100%;
+    min-width: 200px;
+    z-index: 1;
+}
+
+#sutd-logo {
+    padding: 5.07px;
+}
+
+#menu {
+    float: right;
+}
+
+#menu li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#menu li a {
+    color: #000000;
+}
+
+.blanks {
+    height: 84px;
+    width: 100%;
+    opacity: 0;
+}
+
+.scrollup{
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    line-height: 48px;
+    width: 55px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    /* hide scrollup btn by default */
+    opacity: 0;
+    transform: translateY(100px);
+    /* and a transition */
+    transition: all .6s ease
+}
+
+.scrollup:hover{
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+   outline: none;
+} 
+
+.displaybtn {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#Jewel {
+    height: 600px;
+    width: 700px;
+    position: absolute;
+    top: calc(50% - 150px);
+}
+
+
+/* This styles the 3D object inserted in the Jewel container */
+
+#Jewel model-viewer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+#houses {
+    padding-inline-start: 0;
+}
+
+#houses li {
+    display: inline-block;
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+    margin: 0 5px;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.sponsors-icons img {
+    height: 50px;
+}
+
+.contact-icons img{
+    height: 40px;
+}
+
+/*footer reference from ori 2020 footer*/
+#foot{
+    padding: 10px 100px;
+    padding-top: 20px;
+    background-color: #eeeeee;
+    font-size: 15px;
+}
+footer {
+    display: block;
+}
+#foot-logo{
+    width: 150px;
+}
+
+
+/*small devices*/
+
+@media screen and (max-width:576px){
+    
+    h1{
+        font-size:25px!important;
+    }
+    h2{
+        font-size:22px!important;
+    }
+    h3{
+        font-size:20px!important;
+    }
+    h4{
+        font-size:15px!important;
+    }
+   
+    .date{
+        font-size:95%;
+    }
+    
+    .animate-box{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        position: absolute; 
+        transform: translate3d(0px, 0px, 0px);
+        margin-top: 450px;
+    }
+    
+    .animate-box span{
+        display:block;
+        width: 20px; 
+        height: 20px;
+        border:1px solid #383838;
+        transform:rotate(45deg);
+        animation: animate 3s infinite;
+    }
+    .responsive{
+        width:100%;
+        height:70%;
+    }
+    .responsive-title{
+        width:100%;
+        height:70%;
+    }
+    #Jewel {
+        height: 250px;
+        width: 350px;
+        position: relative;
+        top: calc(50% - 150px);
+    }
+    #Jewel model-viewer {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: none;
+    }
+    .maps{
+        width:90%;
+        height:200px;
+    }
+    .text{
+        margin:20px;
+        margin-top: 40px;
+    }
+    .details-section, .houses-section {
+        text-align: center;
+        height: 50vh;
+    } 
+    .countdown-section{
+        padding-top: 70px;
+    }
+    .story-section{
+        text-align:justify;
+    }
+    #rubellite, #jadeite, #citrine, #aquamarine{
+        width:90%;
+    }
+    .responsive-iframe{
+        position:relative;
+        overflow:hidden;
+        width:100%;
+    }
+    /*footer*/
+    #footer-top{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #footer-bottom{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .responsive_story{
+        width:60%;
+    }
+}
+
+/*Medium Devices*/
+@media screen and (max-width:768px) {
+    
+    .animate-box{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        position: absolute; 
+        transform: translate3d(0px, 0px, 0px);
+        margin-top: 450px;
+    }
+    
+    .Trailer{
+        margin-top:50px;
+    }
+/* 
+    .countdown-section{
+        height:58vh;
+    } */
+    
+    .maps{
+        width:500px;
+    }
+    .video-section{
+        
+        height:80vh;
+    }
+    .story-section{
+        height:160vh;
+        text-align:justify;
+    }
+    .details-section{
+        height:200vh;
+    }
+    .houses-section {
+        text-align: center;
+        height: 180vh;
+    }
+    .responsive-title{
+        width:100%;
+        height:70%;
+    }
+    .responsive_story{
+        margin-top: 30px;
+    }
+    .text{
+       font-size:70%;
+    }
+    #foot-logo{
+        width: calc(32px + 12vw);
+    }
+    #footer-bottom{
+        flex-direction: column;
+        align-items: start;
+    }
+    #footer-top{
+        padding: 10px 100px;
+        font-size: 16px;
+    }
+}
+
+/*large devices*/
+@media  screen and (min-width:768px) and (max-width:1199.98px){
+    .text{
+        font-size:70%;
+        text-align: justify;
+     }
+     
+     .animate-box{
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         display: flex;
+         position: absolute; 
+         transform: translate3d(0px, 0px, 0px);
+         padding-top: 300px;
+     }
+     
+     .Trailer{
+         margin-top:50px;
+     }
+ 
+     .countdown-section{
+         height:58vh;
+     }
+     
+     .video-section{
+         align-items: center;
+         justify-content: center;
+         display: flex;
+     }
+ 
+     .story-section{
+         align-items: center;
+         justify-content: center;
+         display: flex;
+     }
+     .pop_desc{
+         font-size:14px;
+         padding:25px;
+     }
+     .responsive_story{
+        margin-top: 40px;
+    }
+}
+
+#hamburg-menu {
+    display: none;
+    width: 35px;
+    float: right;
+    border: 0;
+}
+
+#hamburg-menu:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    nav ul#menu {display: none;}
+    nav img#hamburg-menu {display: inline-block;}
+    
+}
