@@ -822,6 +822,10 @@ footer {
         top: -120px;
         left: 40px;
     }
+    #imkim, #kskin{
+        width:200px;
+        margin:15px;
+    }
 }
 
 
