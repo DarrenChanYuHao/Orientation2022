@@ -525,8 +525,8 @@ nav {
     text-align: center;
 }
 
-.sponsors-icons img {
-    height: 50px;
+.sponsors-icons{
+    padding-top:30px;
 }
 
 /*footer reference from ori 2020 footer*/
@@ -651,6 +651,10 @@ footer {
     .vid:before{
         height:500px;
     }
+    #imkim, #kskin{
+        width:180px;
+        margin:20px;
+    }
 
 }
 
@@ -759,6 +763,9 @@ footer {
         padding: 10px 100px;
         font-size: 16px;
     }
+    #imkim, #kskin{
+        width:180px;
+    }
 }
 
 /*Medium Devices*/
@@ -794,6 +801,9 @@ footer {
     }    
     .text{
        font-size:70%;
+    }
+    #imkim, #kskin{
+        width:150px;
     }
 }
 
