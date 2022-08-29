@@ -651,7 +651,7 @@ footer {
     .vid:before{
         height:500px;
     }
-    #imkim, #kskin{
+    #imkim, #kskin, #lumos{
         width:180px;
         margin:20px;
     }
@@ -763,9 +763,7 @@ footer {
         padding: 10px 100px;
         font-size: 16px;
     }
-    #imkim, #kskin{
-        width:180px;
-    }
+    
 }
 
 /*Medium Devices*/
@@ -802,8 +800,9 @@ footer {
     .text{
        font-size:70%;
     }
-    #imkim, #kskin{
-        width:150px;
+    #imkim, #kskin, #lumos{
+        width:180px;
+        margin: 20px;
     }
 }
 
@@ -822,8 +821,8 @@ footer {
         top: -120px;
         left: 40px;
     }
-    #imkim, #kskin{
-        width:200px;
+    #imkim, #kskin, #lumos{
+        width:150px;
         margin:15px;
     }
 }
@@ -869,6 +868,15 @@ footer {
 
     #Jewel {
         top: calc(100% - 10px);
+    }
+
+    footer .row .col-md-9 {
+        width: 60%;
+    }
+
+    #imkim, #kskin, #lumos{
+        width:180px;
+        margin: 20px;
     }
 }
 
