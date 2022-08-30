@@ -525,8 +525,8 @@ nav {
     text-align: center;
 }
 
-.sponsors-icons img {
-    height: 50px;
+.sponsors-icons{
+    padding-top:30px;
 }
 
 /*footer reference from ori 2020 footer*/
@@ -651,6 +651,10 @@ footer {
     .vid:before{
         height:500px;
     }
+    #imkim, #kskin, #lumos{
+        width:180px;
+        margin:20px;
+    }
 
 }
 
@@ -759,6 +763,7 @@ footer {
         padding: 10px 100px;
         font-size: 16px;
     }
+    
 }
 
 /*Medium Devices*/
@@ -795,6 +800,10 @@ footer {
     .text{
        font-size:70%;
     }
+    #imkim, #kskin, #lumos{
+        width:180px;
+        margin: 20px;
+    }
 }
 
 @media screen and (min-width:577px) and (max-width:768px) and (orientation:landscape){
@@ -811,6 +820,10 @@ footer {
     .story-section:after {   
         top: -120px;
         left: 40px;
+    }
+    #imkim, #kskin, #lumos{
+        width:150px;
+        margin:15px;
     }
 }
 
@@ -855,6 +868,15 @@ footer {
 
     #Jewel {
         top: calc(100% - 10px);
+    }
+
+    footer .row .col-md-9 {
+        width: 60%;
+    }
+
+    #imkim, #kskin, #lumos{
+        width:180px;
+        margin: 20px;
     }
 }
 

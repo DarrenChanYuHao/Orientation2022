@@ -11,4 +11,4 @@ https://orientation.sutd.edu.sg/
 - Anushka Molgi <br>
 <br>
 Project initiated on 9 May 2022 <br>
-Final site published on __ August 2022
+Final site published on 7 August 2022
