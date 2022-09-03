@@ -651,7 +651,7 @@ footer {
     .vid:before{
         height:500px;
     }
-    #imkim, #kskin, #lumos{
+    #imkim, #kskin, #lumos, #pilot{
         width:180px;
         margin:20px;
     }
@@ -800,7 +800,7 @@ footer {
     .text{
        font-size:70%;
     }
-    #imkim, #kskin, #lumos{
+    #imkim, #kskin, #lumos, #pilot{
         width:180px;
         margin: 20px;
     }
@@ -821,7 +821,7 @@ footer {
         top: -120px;
         left: 40px;
     }
-    #imkim, #kskin, #lumos{
+    #imkim, #kskin, #lumos, #pilot{
         width:150px;
         margin:15px;
     }
@@ -874,7 +874,7 @@ footer {
         width: 60%;
     }
 
-    #imkim, #kskin, #lumos{
+    #imkim, #kskin, #lumos, #pilot{
         width:180px;
         margin: 20px;
     }
