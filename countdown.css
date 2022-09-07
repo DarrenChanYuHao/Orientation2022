@@ -271,7 +271,7 @@ h3{
     align-items: center;
     justify-content: center;
     display: flex;
-    height:30vh;
+    height: auto;
     /* height:30vh; original vid height */
 }
 
@@ -287,6 +287,13 @@ h3{
     transform: rotate(-15deg);
     z-index:-1;
     right:5px;
+}
+
+#trailer-video {
+    height: 360px;
+    width: 640px;
+    margin-top: 100px;
+    z-index: 10;
 }
 
 .story-section{
@@ -550,6 +557,10 @@ footer {
     width: 150px;
 }
 
+#imkim, #kskin, #lumos, #pilot{
+    margin:10px;
+}
+
 #TnC {
     color: #808080;
 }
@@ -582,6 +593,10 @@ footer {
     }
     .Trailer{
         padding-top:80px;
+    }
+    #trailer-video {
+        height: 270px;
+        width: 480px;
     }
     .responsive{
         width:40%;
