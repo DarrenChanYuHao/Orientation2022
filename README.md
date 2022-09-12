@@ -15,4 +15,4 @@ https://orientation.sutd.edu.sg/
 <br>
 Project initiated on 9 May 2022 <br>
 Final site published on 7 August 2022 <br>
-Official site down since 4 September 2022 :(
+Official site down since 4 September 2022 due to SSL certificate error :(
